@@ -1,0 +1,90 @@
+#################### default parameters ################################
+logo = "images/kokkolanbudo.png"
+logo_width = "175px"
+logo2 = "images/kokkolanbudologowhite.png"
+description = "Kokkolan Budo ry - Kokkolalainen budo seura, joka tarjoaa mahdollisuuden harrastaa karatea, judoa sekä brasilialaista jujutsua."
+author = "Roope Korpela"
+image = "images/kokkolanbudo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_bjj_action = "https://forms.un-static.com/forms/11e372eaba323a68693a3b6d654b22c81319e974" # contact form works with https://forms.un-static.com
+contact_judo_action = "https://forms.un-static.com/forms/710c018bafabc4b3d30ede2f24489f3dfb3e2c98" # contact form works with https://forms.un-static.com
+contact_karate_action = "https://forms.un-static.com/forms/e6c73cd79cb7a0c95435e67f5777d2c39bd5ea1f" # contact form works with https://forms.un-static.com
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = false
+label = "Ilmoittaudu jäseneksi"
+link = ""
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+  
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialbjj]]
+title = "BJJ instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialbjj]]
+title = "BJJ instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialjudo]]
+title = "Judo instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialjudo]]
+title = "Judo instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialkarate]]
+title = "Karate instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[socialkarate]]
+title = "Karate instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+light = "#f4f5ef"

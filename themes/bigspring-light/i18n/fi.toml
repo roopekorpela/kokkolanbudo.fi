@@ -1,0 +1,23 @@
+[readmore]
+other = "Lue lisää"
+
+[translations]
+other="Käännökset"
+
+[error404]
+other = "Olemme todella pahoillamme, mutta täällä ei näytä olevan mitään."
+
+[yourname]
+other = "Sinun nimesi"
+
+[youremail]
+other = "Sähköpostisi"
+
+[subject]
+other = "Viestin otsikko"
+
+[yourmessage]
+other = "Kirjoita viestsi..."
+
+[sendnow]
+other = "Lähetä viesti"

@@ -1,0 +1,89 @@
+# main menu
+[[main]]
+name = "Etusivu"
+url = "/"
+weight = 1
+
+[[main]]
+name = "BJJ"
+url = "bjj"
+weight = 2
+
+[[main]]
+name = "Judo"
+url = "judo"
+weight = 3
+
+[[main]]
+name = "Karate"
+url = "karate"
+weight = 4
+
+[[main]]
+name = "Usein kysyttyä"
+url = "faq"
+weight = 5
+
+[[main]]
+name = "Yhteystiedot"
+url = "contact"
+weight = 6
+
+# footer menu left
+[[footer_left]]
+name = "BJJ"
+url = "bjj"
+
+[[footer_left]]
+name = "Judo"
+url = "judo"
+
+[[footer_left]]
+name = "Karate"
+url = "karate"
+
+# footer menu middle
+[[footer_middle]]
+name = "BJJ"
+link = "www.instagram.com"
+title = "Karate instagram"
+icon = "fab fa-instagram"
+
+[[footer_middle]]
+name = "Judo"
+link = "www.instagram.com"
+title = "Karate instagram"
+icon = "fab fa-instagram"
+
+[[footer_middle]]
+name = "Karate"
+link = "www.instagram.com"
+title = "Karate instagram"
+icon = "fab fa-instagram"
+
+# footer menu right
+[[footer_right]]
+name = "Dojon säännöt"
+url = "dojorules"
+weight = 1
+
+[[footer_right]]
+name = "Seuran säännöt"
+url = "clubrules"
+weight = 2
+
+[[footer_right]]
+name = "Suomisport"
+url = "https://www.suomisport.fi/?locale=fi_FI"
+weight = 3
+
+[[footer_farright]]
+name = "Usein kysyttyä"
+url = "faq"
+weight = 1
+
+# footer menu far right
+[[footer_farright]]
+name = "Yhteystiedot"
+url = "contact"
+weight = 2

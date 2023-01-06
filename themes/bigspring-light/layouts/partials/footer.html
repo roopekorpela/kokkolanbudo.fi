@@ -1,0 +1,82 @@
+<footer class="bg-light">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-2 col-md-6" >
+        <a class="d-block" href="{{ site.BaseURL | relLangURL}}">
+          {{ with site.Params.logo}}
+          <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+          {{end}}
+        </a>
+      </div>
+      <!-- Lajit -->
+      <div class="col-lg-2 col-md-6 my-3">
+        {{ if site.Menus.footer_left }}
+        <div class="h4">{{ site.Params.footer_menu_left }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_left }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+
+      <!-- Seuraa meitä -->
+      <div class="col-lg-2 col-md-6 my-3">
+        <div class="h4">{{ site.Params.footer_menu_middle }}</div>
+        <ul class="list-unstyled footer-list">
+          <li><a href="https://www.instagram.com/bjjkokkola" title="@bjjkokkola" target="_blank"><i class="fab fa-instagram"></i> BJJ</a></li>
+          <li><a href="https://www.instagram.com/kokkolanbudojudo" title="@kokkolanbudojudo" target="_blank"><i class="fab fa-instagram"></i> Judo</a></li>
+          <li><a href="https://www.instagram.com/kokkolanbudokarate" title="@kokkolanbudokarate" target="_blank"><i class="fab fa-instagram"></i> Karate</a></li>
+        </ul> 
+      </div>
+
+      <!-- Harrastajille -->
+      <div class="col-lg-2 col-md-6 my-3">
+        {{ if site.Menus.footer_right }}
+        <div class="h4">{{ site.Params.footer_menu_right }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range first 2 site.Menus.footer_right }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+          {{ range last 1 site.Menus.footer_right }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}" target="_blank">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      
+      <!-- Yhteystiedot -->
+      <div class="col-lg-2 col-md-6 my-3">
+        {{ if site.Menus.footer_farright }}
+        <div class="h4">{{ site.Params.footer_menu_farright }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_farright }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+
+          {{ if .IsTranslated }}
+          {{ range $.Translations }}
+            <li>              
+                {{ if eq .Language.LanguageName "English" }}
+                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">Suomi ⇄ English</a>
+                {{ else }}
+                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">English ⇄ Suomi</a>
+                {{ end }}
+                <!--<a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+                  {{ if eq .Language.LanguageName "English" }}Suomi ⇄ English{{ else }}English ⇄ Suomi{{ end }}</a>-->
+            </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    <!--<div class="border-top border-default text-center py-1">
+      <small class="content">
+        {{ range site.Menus.footer_bottom }}
+          <a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }} &middot; </a>
+          {{ end }}
+      </small>
+    </div> -->
+  </div>
+</footer>

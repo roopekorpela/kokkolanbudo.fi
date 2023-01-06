@@ -1,0 +1,17 @@
+######################## default configuration ####################
+baseURL = "https://www.kokkolanbudo.fi"
+title = "Kokkolan Budo"
+theme = "bigspring-light"
+defaultContentLanguage = 'fi'
+defaultContentLanguageInSubdir = false
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # you can get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true

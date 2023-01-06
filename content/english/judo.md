@@ -1,0 +1,124 @@
+---
+title: "Judo"
+subtitle: ""
+# meta description
+description: "This is meta description"
+
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Judo as a sport"
+      images:
+      - "../../images/judothrow2.jpg"
+      content : "
+      Judo is the most widespread martial art form in the world. The International Judo Federation IJF has 200 member countries. Judo is the fifth largest sport among the Olympic sports in terms of the number of members of the International Federation. In Europe, the sport is practiced by more than two million people. There are 123 clubs in Finland and a total of about 12,500 enthusiasts.
+      <br> <br>
+      Judo was born in the 1880s when the developer of the sport, Professor of Education, Jigoro Kano, transformed an old Japanese martial art into a form of exercise in which one could compete without harming one's opponent. Judo was first introduced in Finland as early as 1890, when the developer of the sport visited Helsinki. The actual judo activity began in Finland in 1954. The Finnish Judo Federation was founded in 1958. Judo was chosen as the Olympic sport in 1964."
+        
+    # service item loop
+    - title : "Judo in Kokkola"
+      images:
+      - "../../images/judochoke1.jpg"
+      content : "
+      Judo has been practiced in Kokkola since the early eighties. Kokkola Budo started training and offering Judo in 1993. There are about 30 judokas in the club, 5-10 of them are actively competing. <br> <br>
+       The success has come from the regional championships.
+       Practitioners can take part in both fitness and competitive judo. Ground fighting is especially valued within our club.
+       <br> <br>
+       ** Inquiries: ** <br>
+       Jukka Aalto: 050 351 0976 <br>
+       Timo Sivula: 045 624 5150 "
+        
+    # service item loop
+    - title : "Kids and family judo"
+      images:
+      - "../../images/judoukemi.jpg"
+      content : "
+      Kids aged 3 to 6 may join Kokkola Budo muksujudo with an adult. The name Judo means soft path and accordingly the opponent is not hit or kicked, but Judo teaches flexibility both physically and mentally. 
+
+      The younger you start, the better your chances are of adopting even the most difficult techniques possible during your lifelong learning. The most important thing is to learn the manners and the principle of respecting the other. The  Judoka, who is a self-disciplined and familiar with the principles of judo, is mentally and physically strong even outside of the tatami. Judo's values: flexibility, common good and maximizing benefits support this development. <br> <br>
+
+      Judo is taught through play and competition with their adult to the 3-6 year olds attending muksujudo. As you get older, you learn more difficult things. Muksujudo develops the child's motor skills, coordination, teamwork skills and the right kind of courage to do new things, thus helping the child's overall development. " 
+
+timetable:
+  enable : true
+  title : "Judo training times"
+  timetable_item :
+  # timetable_item
+    - name : "Judo basic course and colored belts"
+      time1 : "Tuesday 18:00-19:30"
+      time1location : (Martial Arts Center)
+      time2 : "Thursday 18:00-19:00"
+      time2location : (Martial Arts Center)
+
+  # timetable_item
+    - name : "Junior judo"
+      time1 : "Tuesday  16:00-17:00"
+      time1location : "(Martial Arts Center)"
+      time2 : "Friday 16:00-17:00"
+      time2location : "(Kampushalli)"
+  # timetable_item
+    - name : "Kids and family judo"
+      time1 : "Sunday 10:00-11:00"
+      time1location : (Martial Arts Center)
+
+  # timetable_item
+    - name : "Judo kata training"
+      time1 : "Sunday 15:30-16:30"
+      time1location : (Martial Arts Center)
+
+coaches:
+  enable : true
+  title: "Judo coaches"
+  coach_item:
+  # valmentaja_item
+    - name : "Rachid El Kadiri"
+      belt : "3. dan black belt"
+      beltcolor : "#222"
+      image : "../../images/Rachid El Kadiri.png"
+      description : "Basic course and colored belts coach"
+  # valmentaja_item
+    - name : "Timo Sivula"
+      belt : "1. dan black belt"
+      beltcolor : "#222"
+      image : "../../images/Timo Sivula.png"
+      description : "Kata course coach"
+  # valmentaja_item
+    - name : "Jukka Aalto"
+      belt : "1. kyū brown belt"
+      image : "../../images/Jukka Aalto.png"
+      beltcolor : "#3f2a14"
+      description : "Senior judo coach"
+  # valmentaja_item
+    - name : "Jani Möller"
+      belt : "2. kyū blue belt"
+      beltcolor : "#355cb0"
+      image : "../../images/Jani Möller.png"
+      description : "Basic course and colored belts coach"
+    # valmentaja_item
+    - name : "Mira Ojala"
+      belt : "2. kyū blue belt"
+      beltcolor : "#355cb0"
+      image : "../../images/Jani Möller.png"
+      description : "Junior judo coach"    
+    # valmentaja_item
+    - name : "Tomi Laaksonen"
+      belt : "?. kyu ? belt"
+      beltcolor : "#DEDED9"
+      image : "../../images/Jani Möller.png"
+      description : "Junior judo coach<br>"  
+    # valmentaja_item
+    - name : "Jemina Salonen"
+      belt : "2. kyū blue belt"
+      beltcolor : "#355cb0"
+      image : "../../images/Jani Möller.png"
+      description : "Junior judo coach"       
+
+moreinfo:
+  enable : true
+  title : "Information for judo practitioners"
+  content : "
+  Sports Federation: [Suomen Judoliitto](https://www.judoliitto.fi/)
+  <br><br>
+  Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance."
+---

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uutiset on Kokkolan Budo</title>
+    <link>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/</link>
+    <description>Recent content in Uutiset on Kokkolan Budo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 2022 10:07:21 +0600</lastBuildDate><atom:link href="https://kokkolanbudostorageacc.z16.web.core.windows.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uudet kotisivut!</title>
+      <link>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/uudet-kotisivut/</link>
+      <pubDate>Sat, 01 Jan 2022 10:07:21 +0600</pubDate>
+      
+      <guid>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/uudet-kotisivut/</guid>
+      <description>Kokkolan Budon kotisivut uudistettiin 2022 vuoden vaihteessa.</description>
+    </item>
+    
+    <item>
+      <title>BJJ peruskurssi 2021</title>
+      <link>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/bjj-peruskurssi-2021/</link>
+      <pubDate>Mon, 19 Oct 2020 09:07:21 +0600</pubDate>
+      
+      <guid>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/bjj-peruskurssi-2021/</guid>
+      <description>Uusi BJJ:n peruskurssi alkaa 19.10.2021.</description>
+    </item>
+    
+    <item>
+      <title>Uusi karaten peruskurssi</title>
+      <link>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/karaten-peruskurssi-2021/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://kokkolanbudostorageacc.z16.web.core.windows.net/news/karaten-peruskurssi-2021/</guid>
+      <description>Uusi karaten peruskurssi alkaa keskiviikkona 03.11.2021 klo 17:00.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+############################# Finnish ############################
+[fi]
+languageName = "Finnish"
+title = "Kokkolan Budo"
+contentDir = "content/finnish" # content/finnish
+weight = 1
+########### footer content ##########
+footer_menu_left = "Lajit"
+footer_menu_middle = "Seuraa meitä"
+footer_menu_right = "Harrastajille"
+footer_menu_farright = "Yhteystiedot"
+footer_content = ""
+
+############################# English ############################
+[en]
+languageName = "English"
+title = "Kokkolan Budo"
+contentDir = "content/english" # content/english
+weight = 2
+########### footer content ##########
+footer_menu_left = "Martial Arts"
+footer_menu_middle = "Follow us"
+footer_menu_right = "For members"
+footer_menu_farright = "Contact"
+footer_content = ""
