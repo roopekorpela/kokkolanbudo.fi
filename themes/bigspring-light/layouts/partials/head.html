@@ -7,6 +7,9 @@
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
 
+<!-- Netlify CMS -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
