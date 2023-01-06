@@ -6,7 +6,7 @@ media_folder: "static/images" # Media files will be stored in the repo under sta
 public_folder: "images"
 
 collections:
-- name: "news" # Used in routes, e.g., /admin/collections/blog
+- name: "uutiset" # Used in routes, e.g., /admin/collections/blog
   label: "News (Finnish)" # Used in the UI
   folder: "content/finnish/news" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
