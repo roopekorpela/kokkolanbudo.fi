@@ -11,6 +11,9 @@ AUTHOR WEBSITE: https://gethugothemes.com
 <html lang="{{ site.LanguageCode | default `fi-fi` }}">
 
 <head>
+	<!-- Netlify CMS-->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	
 	{{ partial "head.html" . }}
 
 	{{ if hugo.IsProduction }}
@@ -41,18 +44,18 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	{{ partial "script.html" . }}
 	{{ end }}
 	
-<!-- netlify CMS -->
-<script>
-	if (window.netlifyIdentity) {
-	  window.netlifyIdentity.on("init", user => {
-		if (!user) {
-		  window.netlifyIdentity.on("login", () => {
-			document.location.href = "/admin/";
-		  });
+	<!-- netlify CMS -->
+	<script>
+		if (window.netlifyIdentity) {
+		window.netlifyIdentity.on("init", user => {
+			if (!user) {
+			window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			});
+			}
+		});
 		}
-	  });
-	}
-  </script>
+	</script>
 </body>
 
 </html>
