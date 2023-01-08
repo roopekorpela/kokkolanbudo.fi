@@ -36,7 +36,7 @@ collections:
       name: "karate"    
       label: "Karate (Finnish)"
       fields:
-        - {label: Title, name: title, widget: string} 
+        - {label: "Title", name: "title", widget: "string"}
 #        - { label: "Title", name: "title", widget: "string" }
 #        - { label: "Subtitle", name: "subtitle", widget: "string" }
 #        - {
