@@ -38,11 +38,7 @@ collections:
         - label: "Karaten harrastajille"
           name: "moreinfo"
           widget: "object"
-          fields:
-            - {label: "Enable", name: "enable", widget: "boolean"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Content", name: "content", widget: "markdown"}
-        - label: "Harjoitusaika"
+        - label: "Timetable"
           name: "timetable"
           widget: "object"
           fields:
