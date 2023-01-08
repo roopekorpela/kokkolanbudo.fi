@@ -31,24 +31,20 @@ collections:
 
 - name: "pages" 
   label: "Pages (Finnish)"
-  extension: "markdown"
-  format: "frontmatter"
   files:
     - file: "content/finnish/karate.md" 
       name: "karate"    
-      label: "Karate (Finnish)"
-      extension: "markdown"
-      format: "frontmatter"
       fields:
-        - { label: "Title", name: "title", widget: "string" }
-        - { label: "Subtitle", name: "subtitle", widget: "string" }
-        - {
-            label: "Timetable", 
-            name: "timetable", 
-            widget: "object", 
-            fields: 
-              [
-                { label: "Title", name: "title", widget: "string" },
-                { label: "Enable", name: "enable", widget: "boolean" }
-              ],
-          } 
+        - {label: Title, name: title, widget: string} 
+#        - { label: "Title", name: "title", widget: "string" }
+#        - { label: "Subtitle", name: "subtitle", widget: "string" }
+#        - {
+#            label: "Timetable", 
+#            name: "timetable", 
+#            widget: "object", 
+#            fields: 
+#              [
+#                { label: "Title", name: "title", widget: "string" },
+#                { label: "Enable", name: "enable", widget: "boolean" }
+#              ],
+#          } 
