@@ -30,9 +30,7 @@ collections:
 
 - name: "karate"
   label: "Karate"
-  file: "karate.md"
-  folder: "content/finnish"
-  create: true
+  file: "content/finnish/karate.md"
   fields:
     - label: "Timetable"
       name: "timetable"
