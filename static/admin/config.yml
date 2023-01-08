@@ -27,6 +27,26 @@ collections:
     - {label: "Featured Image", name: "image", widget: "image"}
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
+
+- name: "karate"
+  label: "Karate"
+  file: "karate.md"
+  folder: "content/finnish"
+  create: true
+  fields:
+    - label: "Timetable"
+      name: "timetable"
+      widget: "object"
+      fields:
+        - {label: "Enable", name: "enable", widget: "boolean"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
+            {label: "Name", name: "name", widget: "string"},
+            {label: "Time 1", name: "time1", widget: "string"},
+            {label: "Time 1 Location", name: "time1location", widget: "string"},
+            {label: "Time 2", name: "time2", widget: "string"},
+            {label: "Time 2 Location", name: "time2location", widget: "string"}
+          ]}
 - name: "Pages"
   label: "pages"
   files:
