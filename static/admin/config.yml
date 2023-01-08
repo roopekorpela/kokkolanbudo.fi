@@ -34,8 +34,8 @@ collections:
       name: "Karate (Finnish)"
       file: "content/finnish/karate.md"
       fields:
-        - label: "moreinfo"
-          name: "address"
+        - label: "Karaten harrastajille"
+          name: "moreinfo"
           widget: "object"
           fields: 
             - {label: "Enable", name: "enable", widget: "boolean"}
