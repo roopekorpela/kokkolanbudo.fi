@@ -29,21 +29,22 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 
 
-- label: "Pages (Finnish)"
-  name: "pages"
+- name: "pages" 
+  label: "Pages (Finnish)"
   files:
     - file: "content/finnish/karate.md" 
       label: "Karate (Finnish)"
       name: "karate"    
       fields:
-        - {label: "Timetable", name: "timetable", widget: "object", fields: [
-            {label: "Enable", name: "enable", widget: "boolean"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
-                {label: "Name", name: "name", widget: "string"},
-                {label: "Time 1", name: "time1", widget: "string"},
-                {label: "Time 1 Location", name: "time1location", widget: "string"},
-                {label: "Time 2", name: "time2", widget: "string"},
-                {label: "Time 2 Location", name: "time2location", widget: "string"}
-              ]}
-          ]}
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Subtitle", name: "subtitle", widget: "string" }
+        - {
+            label: "Timetable", 
+            name: "timetable", 
+            widget: "object", 
+            fields: 
+              [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Enable", name: "enable", widget: "boolean" }
+              ],
+          } 
