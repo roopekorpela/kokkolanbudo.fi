@@ -31,6 +31,7 @@ collections:
 
 - name: "pages" 
   label: "Pages (Finnish)"
+  extension: "markdown"
   files:
     - file: "content/finnish/karate.md" 
       name: "karate"    
