@@ -27,3 +27,19 @@ collections:
     - {label: "Featured Image", name: "image", widget: "image"}
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
+- name: "Pages"
+  label: "pages"
+  files:
+    - label: "Karate-fi"
+      name: "Karate (Finnish)"
+      file: "content/finnish/karate.md"
+      fields:
+          - label: Timetable
+            name: timetable
+            widget: list
+            fields:
+              - {label: Harjoituksen nimi, name: name, widget: string}
+              - {label: Harjoitusaika1, name: time1, widget: string}
+              - {label: Harjoitustila1, name: time1location, widget: string}
+              - {label: Harjoitusaika2, name: time2, widget: string}
+              - {label: Harjoitustila2, name: time2location, widget: string}
