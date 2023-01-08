@@ -34,8 +34,8 @@ collections:
       name: "Karate (Finnish)"
       file: "content/finnish/karate.md"
       fields:
-          - label: Timetable
-            name: timetable
+          - label: Harjoitusajat
+            name: timetable_item
             widget: list
             fields:
               - {label: Harjoituksen nimi, name: name, widget: string}
