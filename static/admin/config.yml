@@ -6,10 +6,10 @@ public_folder: "images"
 
 collections:
 - name: "uutiset" # Used in routes, e.g., /admin/collections/blog
-  label: "News (Finnish)" # Used in the UI
+  label: "Uutinen (Finnish)" # Used in the UI
   folder: "content/finnish/news" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  slug: "{{slug}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -17,7 +17,7 @@ collections:
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
 - name: "news" # Used in routes, e.g., /admin/collections/blog
-  label: "News (English)" # Used in the UI
+  label: "Uutinen (English)" # Used in the UI
   folder: "content/english/news" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
