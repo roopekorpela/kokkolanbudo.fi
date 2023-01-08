@@ -34,6 +34,7 @@ collections:
   files:
     - file: "content/finnish/karate.md" 
       name: "karate"    
+      label: "Karate (Finnish)"
       fields:
         - {label: Title, name: title, widget: string} 
 #        - { label: "Title", name: "title", widget: "string" }
