@@ -16,6 +16,7 @@ collections:
     - {label: "Featured Image", name: "image", widget: "image"}
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
+
 - name: "news" # Used in routes, e.g., /admin/collections/blog
   label: "Uutinen (English)" # Used in the UI
   folder: "content/english/news" # The path to the folder where the documents are stored
@@ -28,7 +29,6 @@ collections:
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
 
-collections:
 - name: "pages" 
   label: "Pages (Finnish)"
   files:
@@ -37,6 +37,8 @@ collections:
       label: "Karate (Finnish)"
       fields:
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
+
 #        - { label: "Title", name: "title", widget: "string" }
 #        - { label: "Subtitle", name: "subtitle", widget: "string" }
 #        - {
