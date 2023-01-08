@@ -30,11 +30,11 @@ collections:
 
 
 - label: "Pages (Finnish)"
-  name: "content"
+  name: "pages"
   files:
-    - label: "Karate (Finnish)"
-      name: "karate"
-      file: "content/finnish/karate.md"
+    - file: "content/finnish/karate.md" 
+      label: "Karate (Finnish)"
+      name: "karate"    
       fields:
         - {label: "Timetable", name: "timetable", widget: "object", fields: [
             {label: "Enable", name: "enable", widget: "boolean"},
