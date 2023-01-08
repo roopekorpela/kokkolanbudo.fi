@@ -33,8 +33,9 @@ collections:
   label: "Pages (Finnish)"
   files:
     - file: "content/finnish/karate.md" 
-      label: "Karate (Finnish)"
       name: "karate"    
+      label: "Karate (Finnish)"
+      widget: "object"
       fields:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Subtitle", name: "subtitle", widget: "string" }
