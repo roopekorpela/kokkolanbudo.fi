@@ -34,12 +34,16 @@ collections:
       name: "Karate (Finnish)"
       file: "content/finnish/karate.md"
       fields:
-          - label: Harjoitusajat
-            name: timetable_item
-            widget: object
+          - label: "Harjoitusajat"
+            name: "timetable"
+            widget: "list"
             fields:
-              - {label: Harjoituksen nimi, name: name, widget: string}
-              - {label: Harjoitusaika1, name: time1, widget: string}
-              - {label: Harjoitustila1, name: time1location, widget: string}
-              - {label: Harjoitusaika2, name: time2, widget: string}
-              - {label: Harjoitustila2, name: time2location, widget: string}
+              - label: "Harjoitusaika"
+                name: "timetable_item"
+                widget: "object"
+                fields: 
+                  - {label: "Harjoituksen nimi", name: "name", widget: "string"}
+                  - {label: "Harjoitusaika1", name: "time1", widget: "string"}
+                  - {label: "Harjoitustila1", name: "time1location", widget: "string"}
+                  - {label: "Harjoitusaika2", name: "time2", widget: "string"}
+                  - {label: "Harjoitustila2", name: "time2location", widget: "string"}
