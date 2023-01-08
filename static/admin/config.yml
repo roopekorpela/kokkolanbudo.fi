@@ -36,7 +36,7 @@ collections:
       fields:
           - label: Harjoitusajat
             name: timetable_item
-            widget: list
+            widget: object
             fields:
               - {label: Harjoituksen nimi, name: name, widget: string}
               - {label: Harjoitusaika1, name: time1, widget: string}
