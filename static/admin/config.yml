@@ -29,10 +29,9 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 - name: "Pages"
   label: "pages"
-  format: "frontmatter"
   files:
-    - label: "Karate-fi"
-      name: "Karate (Finnish)"
+    - name: "karate"
+      label: "Karate (Finnish)"
       file: "content/finnish/karate.md"
       fields:
         - {label: "Title", name: "title", widget: "string"}
