@@ -53,19 +53,19 @@ coaches:
   coach_item:
     - name: Tomi Niemi
       belt: 2. dan musta vyö
-      beltcolor: "#3f2a14"
+      beltcolor: "#222"
       image: ../../images/Tomi Niemi.png
       description: Ylempien vöiden valmentaja
       description2: (1-tason junioriohjaaja)
     - name: Roope Korpela
       belt: 2. dan musta vyö
-      beltcolor: "#5E3E8D"
+      beltcolor: "#222"
       image: images/Roope Korpela.png
       description: "Ylempien vöiden valmentaja "
       description2: ""
     - name: Num Syrjälä
       belt: 1. dan musta vyö
-      beltcolor: "#355cb0"
+      beltcolor: "#222"
       image: ../../images/Num Syrjälä.png
       description: Peruskurssin valmentaja
       description2: (1-tason junioriohjaaja)
