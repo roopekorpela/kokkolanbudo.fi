@@ -53,15 +53,20 @@ coaches:
     - name: Roope Korpela
       belt: 2. dan musta vyö
       beltcolor: "#222"
-      image: images/roope-korpela-testing.png
+      image: images/Roope Korpela.png
       description: "Ylempien vöiden valmentaja "
-      description2: Desc2
+      description2: ""
     - name: Num Syrjälä
       belt: 1. dan musta vyö
       beltcolor: "#222"
       image: ../../images/Num Syrjälä.png
       description: Peruskurssin valmentaja
       description2: (1-tason junioriohjaaja)
+    - name: Testi valmentaja
+      belt: 5.kyu keltainen
+      beltcolor: "#111"
+      description: Tämä on testi
+      image: images/Jani Möller.png
 moreinfo:
   enable: true
   title: Karaten harrastajille
