@@ -1,32 +1,38 @@
 ---
 title: Karate
 description: Tietoa karatesta
-
 service:
   enable: true
   service_item:
     - title: Karate lajina
       images:
         - ../../images/karatekata.jpg
-      content: |
+      content: >
         Alkunsa aseettomana taistelulajina Okinawan saarella (Japani) saanut
+
         karate on nykypäivänä sekä itsepuolustus- että urheilulaji. Valtaosa
+
         karaten harrastajista keskittyy karaten perinteisempään muotoon, eli
+
         itsepuolustukseen.
+
 
         Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Lajissa on kamppailun lisäksi tärkeässä roolissa sekä fyysisen että henkisen kunnon kehittäminen, mikä tekee karatesta todella kokonaisvaltaisen liikuntamuodon.
     - title: Gijomon-kai
       images:
         - ../../images/karateyoi.jpg
-      content: |
-        Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea, jossa kunto kohoaa.
+      content: >
+        Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea,
+        jossa kunto kohoaa.
+
 
         Tyylisuunta on perustettu vuonna 1977 ja sen perustaja on Yoshiji Kaku. Suomessa Gijomon-kaita aloitti opettamaan Kim Isaksson vuonna 1994. Gijomon voidaan kääntää suomeksi “velvollisuus aina ensin” tai “kohtalo on toimia velvollisuutensa eteen”.
 
-        Tunneillamme opit monenlaisia lyöntejä, potkuja, lukkoja, heittoja ja kaatumisia sekä niiden käyttämistä itsepuolustustilanteissa.
-    
-        Tervetuloa tutustamaan Gijomon-kai karateen!
 
+        Tunneillamme opit monenlaisia lyöntejä, potkuja, lukkoja, heittoja ja kaatumisia sekä niiden käyttämistä itsepuolustustilanteissa.
+
+
+        Tervetuloa tutustamaan Gijomon-kai karateen!
 timetable:
   enable: true
   title: Karaten harjoitusajat
@@ -66,14 +72,19 @@ coaches:
 moreinfo:
   enable: true
   title: Karaten harrastajille
-  content: |
+  content: >
     Gijomon-kai karaten harrastajat kuuluvat All Japan Gijomonkai Karate-jutsu
+
     -organisaatioon ja vuodesta 1998 lähtien myös [Suomen
+
     Karateliittoon.](https://karateliitto.fi/fi/)
+
 
     Ajantasaista tietoa karaten lisensseistä ja vakuutuksista voi lukea Suomen Karateliiton sivuilta kohdasta [lisenssit ja vakuutukset](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/)
 
+
     Kokkolan Budolla on käytössä [Suomisport](https://www.suomisport.fi), josta harrastajat saavat ostettua lisenssit ja vakuutukset.
+
 
     Tyylisuunnassamme on seitsemän Shorinji-ryusta muokattua aseetonta kataa: Kenshi ho, Wanshu, Ananku, Seisan, Chinto, Gojushiho ja Bassai Dai.
 ---
