@@ -44,11 +44,14 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+
     - file: "content/finnish/_index.md" 
       name: "index"    
       label: "Index (Finnish)"
       fields:
         - {label: "Category", name: "category", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
 #        - { label: "Title", name: "title", widget: "string" }
 #        - { label: "Subtitle", name: "subtitle", widget: "string" }
 #        - {
