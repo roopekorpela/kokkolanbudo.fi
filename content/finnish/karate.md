@@ -1,8 +1,6 @@
 ---
 title: "Karate"
-subtitle: ""
 description: "This is meta description"
-
 service:
   enable : true
   service_item:
@@ -22,8 +20,7 @@ service:
       content : "Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea, jossa kunto kohoaa.
       Tyylisuunta on perustettu vuonna 1977 ja sen perustaja on Yoshiji Kaku. Suomessa Gijomon-kaita aloitti opettamaan Kim Isaksson vuonna 1994. Gijomon voidaan kääntää suomeksi “velvollisuus aina ensin” tai “kohtalo on toimia velvollisuutensa eteen”. <br><br>
       Tyylisuunnassamme on seitsemän Shorinji-ryusta muokattua aseetonta kataa: Kenshi ho, Wanshu, Ananku, Seisan, Chinto, Gojushiho ja Bassai Dai.
-      "
-        
+      "   
 timetable:
   enable : true
   title : "Karaten harjoitusajat"
@@ -41,7 +38,6 @@ timetable:
       time1location : "(Martial Arts Center, pieni puoli)"
       time2 : "Perjantai klo 17:00-18:00"
       time2location : "(Martial Arts Center, pieni puoli)"
-
 coaches:
   enable : true
   title: "Karaten valmentajat"
@@ -66,7 +62,6 @@ coaches:
       image : "../../images/Num Syrjälä.png"
       description : "Peruskurssin valmentaja"
       description2: "(1-tason junioriohjaaja)"
-
 moreinfo:
   enable : true
   title : "Karaten harrastajille"
