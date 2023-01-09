@@ -43,16 +43,15 @@ collections:
       label: "Karate (Finnish)"
       fields:
         - {label: "Title", name: "title", widget: "string"}
-        - 
-        label: "Timetable"
-        name: "timetable"
-        widget: "object"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
-              {label: "Name", name: "name", widget: "string"},
-              {label: "Time 1", name: "time1", widget: "string"},
-              {label: "Time 1 Location", name: "time1location", widget: "string"},
-              {label: "Time 2", name: "time2", widget: "string"},
-              {label: "Time 2 Location", name: "time2location", widget: "string"}
-            ]}
+        - label: "Timetable"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
+                {label: "Name", name: "name", widget: "string"},
+                {label: "Time 1", name: "time1", widget: "string"},
+                {label: "Time 1 Location", name: "time1location", widget: "string"},
+                {label: "Time 2", name: "time2", widget: "string"},
+                {label: "Time 2 Location", name: "time2location", widget: "string"}
+              ]}
