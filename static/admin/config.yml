@@ -30,10 +30,10 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 
 - name: "pages" 
-  label: "Pages (Finnish)"
+  label: "Pages"
   files:
     - file: "content/finnish/karate.md" 
-      name: "karate"    
+      name: "karate-fi"    
       label: "Karate (Finnish)"
       fields:
         - {label: "Title", name: "title", widget: "string"}
