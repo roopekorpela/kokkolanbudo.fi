@@ -1,24 +1,27 @@
 ---
 title: "Karate"
 description: "This is meta description"
+
 service:
-  enable : true
+  enable: true
   service_item:
     # service item loop
     - title : "Karate lajina"
-      images: "../../images/karatekata.jpg"
-      content : |
-      Alkunsa aseettomana taistelulajina Okinawan saarella (Japani) saanut karate on nykypäivänä sekä itsepuolustus- että urheilulaji. Valtaosa karaten harrastajista keskittyy karaten perinteisempään muotoon, eli itsepuolustukseen.
-      <br><br>
-      Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Lajissa on kamppailun lisäksi tärkeässä roolissa sekä fyysisen että henkisen kunnon kehittäminen, mikä tekee karatesta todella kokonaisvaltaisen liikuntamuodon.
+      images: 
+      - "../../images/karatekata.jpg"
+      content: |
+        Alkunsa aseettomana taistelulajina Okinawan saarella (Japani) saanut karate on nykypäivänä sekä itsepuolustus- että urheilulaji. Valtaosa karaten harrastajista keskittyy karaten perinteisempään muotoon, eli itsepuolustukseen.
+        <br><br>
+        Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Lajissa on kamppailun lisäksi tärkeässä roolissa sekä fyysisen että henkisen kunnon kehittäminen, mikä tekee karatesta todella kokonaisvaltaisen liikuntamuodon.
         
     # service item loop
     - title : "Gijomon-kai"
-      images:  "../../images/karateyoi.jpg"
-      content : |
-      Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea, jossa kunto kohoaa.
-      Tyylisuunta on perustettu vuonna 1977 ja sen perustaja on Yoshiji Kaku. Suomessa Gijomon-kaita aloitti opettamaan Kim Isaksson vuonna 1994. Gijomon voidaan kääntää suomeksi “velvollisuus aina ensin” tai “kohtalo on toimia velvollisuutensa eteen”. <br><br>
-      Tyylisuunnassamme on seitsemän Shorinji-ryusta muokattua aseetonta kataa: Kenshi ho, Wanshu, Ananku, Seisan, Chinto, Gojushiho ja Bassai Dai.
+      images:  
+      - "../../images/karateyoi.jpg"
+      content: |
+        Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea, jossa kunto kohoaa.
+        Tyylisuunta on perustettu vuonna 1977 ja sen perustaja on Yoshiji Kaku. Suomessa Gijomon-kaita aloitti opettamaan Kim Isaksson vuonna 1994. Gijomon voidaan kääntää suomeksi “velvollisuus aina ensin” tai “kohtalo on toimia velvollisuutensa eteen”. <br><br>
+        Tyylisuunnassamme on seitsemän Shorinji-ryusta muokattua aseetonta kataa: Kenshi ho, Wanshu, Ananku, Seisan, Chinto, Gojushiho ja Bassai Dai.
 timetable:
   enable : true
   title : "Karaten harjoitusajat"
@@ -64,9 +67,9 @@ moreinfo:
   enable : true
   title : "Karaten harrastajille"
   content : |
-  Gijomon-kai karaten harrastajat kuuluvat All Japan Gijomonkai Karate-jutsu -organisaatioon ja vuodesta 1998 lähtien myös [Suomen Karateliittoon.](https://karateliitto.fi/fi/)
-  <br><br>
-  Ajantasaista tietoa karaten lisensseistä ja vakuutuksista voi lukea Suomen Karateliiton sivuilta kohdasta [lisenssit ja vakuutukset](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/)
-  <br><br>
-  Kokkolan Budolla on käytössä [Suomisport](https://www.suomisport.fi), josta harrastajat saavat ostettua lisenssit ja vakuutukset.
+    Gijomon-kai karaten harrastajat kuuluvat All Japan Gijomonkai Karate-jutsu -organisaatioon ja vuodesta 1998 lähtien myös [Suomen Karateliittoon.](https://karateliitto.fi/fi/)
+    <br><br>
+    Ajantasaista tietoa karaten lisensseistä ja vakuutuksista voi lukea Suomen Karateliiton sivuilta kohdasta [lisenssit ja vakuutukset](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/)
+    <br><br>
+    Kokkolan Budolla on käytössä [Suomisport](https://www.suomisport.fi), josta harrastajat saavat ostettua lisenssit ja vakuutukset.
 ---
