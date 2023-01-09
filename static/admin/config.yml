@@ -1,3 +1,4 @@
+# Netlify CMS configuration file
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
@@ -42,12 +43,10 @@ collections:
       name: "karate-fi"    
       label: "Karate (Finnish)"
       fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - label: "Timetable"
+        - label: "Harjoitusajat"
           name: "timetable"
           widget: "object"
           fields:
-            - {label: "Title", name: "title", widget: "string"}
             - {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
                 {label: "Name", name: "name", widget: "string"},
                 {label: "Time 1", name: "time1", widget: "string"},
@@ -55,3 +54,19 @@ collections:
                 {label: "Time 2", name: "time2", widget: "string"},
                 {label: "Time 2 Location", name: "time2location", widget: "string"}
               ]}
+        - label: "Valmentajat"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Coach_items", name: "coach_item", widget: "list", fields: [
+                {label: "Name", name: "name", widget: "string"},
+                {label: "Belt", name: "belt", widget: "string"},
+                {label: "Belt Color", name: "beltcolor", widget: "string"},
+                {label: "Image", name: "image", widget: "string"},
+                {label: "Description", name: "description", widget: "string"},
+                {label: "Description 2", name: "description2", widget: "string"}
+              ]}
+        - {label: "More Info", name: "moreinfo", widget: "object", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Content", name: "content", widget: "markdown"}
+            ]}

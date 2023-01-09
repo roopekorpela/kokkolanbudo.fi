@@ -1,6 +1,6 @@
 ---
 title: "Karate"
-description: "This is meta description"
+description: "Tietoa karatesta"
 
 service:
   enable: true
