@@ -50,20 +50,20 @@ coaches:
     # valmentaja_item
     - name : Tomi Niemi
       belt : 2. dan black belt
-      beltcolor : #222
+      beltcolor : "#222"
       image : ../../images/Tomi Niemi.png
       description : Ylempien vöiden valmentaja
       description2: (1-tason junioriohjaaja)
   # valmentaja_item
     - name : Roope Korpela
       belt : 2. dan black belt
-      beltcolor : #222
+      beltcolor : "#222"
       image : ../../images/Roope Korpela.png
       description : Ylempien vöiden valmentaja 
   # valmentaja_item
     - name : Num Syrjälä
       belt : 1. dan black belt
-      beltcolor : #222
+      beltcolor : "#222"
       image : ../../images/Num Syrjälä.png
       description : Peruskurssin valmentaja
       description2: (1-tason junioriohjaaja)
@@ -73,8 +73,8 @@ moreinfo:
   title : Information for karate practitioners
   content : |
     Gijomon-kai karate practitioners belong to the All Japan Gijomonkai Karate-jutsu organization and, since 1998, also to the [Finnish Karate Association.](Https://karateliitto.fi/fi/) 
-    <br><br>
+
     Up-to-date information on karate licenses and insurances can be found on the Finnish Karate Association's website under [licenses and insurances](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/) 
-    <br><br>
+
     Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance.
 ---
