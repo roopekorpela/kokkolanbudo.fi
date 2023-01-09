@@ -62,11 +62,6 @@ coaches:
       image: ../../images/Num Syrjälä.png
       description: Peruskurssin valmentaja
       description2: (1-tason junioriohjaaja)
-    - name: Testi valmentaja
-      belt: 5.kyu keltainen
-      beltcolor: "#111"
-      description: Tämä on testi
-      image: images/Jani Möller.png
 moreinfo:
   enable: true
   title: Karaten harrastajille
