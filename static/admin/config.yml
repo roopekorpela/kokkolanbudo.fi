@@ -39,7 +39,7 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
-        
+
     - file: "content/finnish/karate.md" 
       name: "karate-fi"    
       label: "Karate (Finnish)"
@@ -63,11 +63,11 @@ collections:
                 {label: "Name", name: "name", widget: "string"},
                 {label: "Belt", name: "belt", widget: "string"},
                 {label: "Belt Color", name: "beltcolor", widget: "select", options: [
-                      - { label: "Black", value: "#222" }
-                      - { label: "Purple", value: "#5E3E8D" }
-                      - { label: "Brown", value: "#3f2a14" }
-                      - { label: "Blue", value: "#355cb0" }
-                      - { label: "White", value: "#DEDED9" }
+                      { label: "Black", value: "#222" },
+                      { label: "Purple", value: "#5E3E8D" },
+                      { label: "Brown", value: "#3f2a14" },
+                      { label: "Blue", value: "#355cb0" },
+                      { label: "White", value: "#DEDED9" }
                 ]},
                 {label: "Image", name: "image", widget: "image"},
                 {label: "Description", name: "description", widget: "string"},
@@ -100,11 +100,11 @@ collections:
                 {label: "Name", name: "name", widget: "string"},
                 {label: "Belt", name: "belt", widget: "string"},
                 {label: "Belt Color", name: "beltcolor", widget: "select", options: [
-                      - { label: "Black", value: "#222" }
-                      - { label: "Purple", value: "#5E3E8D" }
-                      - { label: "Brown", value: "#3f2a14" }
-                      - { label: "Blue", value: "#355cb0" }
-                      - { label: "White", value: "#DEDED9" }
+                      { label: "Black", value: "#222" },
+                      { label: "Purple", value: "#5E3E8D" },
+                      { label: "Brown", value: "#3f2a14" },
+                      { label: "Blue", value: "#355cb0" },
+                      { label: "White", value: "#DEDED9" }
                 ]},
                 {label: "Image", name: "image", widget: "image"},
                 {label: "Description", name: "description", widget: "string"},
