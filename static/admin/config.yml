@@ -32,6 +32,12 @@ collections:
 - name: "pages" 
   label: "Pages"
   files:
+    - file: "content/finnish/clubrules.md" 
+      name: "clubrules-fi"
+      label: "Dojo säännöt"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
     - file: "content/finnish/karate.md" 
       name: "karate-fi"    
       label: "Karate (Finnish)"
