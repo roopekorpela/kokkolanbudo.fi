@@ -53,9 +53,9 @@ coaches:
     - name: Roope Korpela
       belt: 2. dan musta vyö
       beltcolor: "#222"
-      image: images/roope-korpela-testing.png
+      image: images/Roope Korpela.png
       description: "Ylempien vöiden valmentaja "
-      description2: Desc2
+      description2: ""
     - name: Num Syrjälä
       belt: 1. dan musta vyö
       beltcolor: "#222"
