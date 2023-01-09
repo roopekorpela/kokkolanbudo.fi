@@ -5,6 +5,10 @@ backend:
 media_folder: "static/images" # Media files will be stored in the repo under static/images
 public_folder: "images"
 
+languages:
+  - language: fi
+  - language: en
+
 collections:
 - name: "uutiset" # Used in routes, e.g., /admin/collections/blog
   label: "Uutinen (Finnish)" # Used in the UI
@@ -47,12 +51,19 @@ collections:
           name: "timetable"
           widget: "object"
           fields:
-            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: [
-                {label: "Nimi", name: "name", widget: "string"},
-                {label: "Aika 1", name: "time1", widget: "string"},
-                {label: "Aika 1 harjoituspaikka", name: "time1location", widget: "string"},
-                {label: "Aika 2", name: "time2", widget: "string", required: false},
-                {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string", required: false}
+            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", language: "fi", fields: [
+                {label: "Nimi", name: "name", widget: "string", language: "fi"},
+                {label: "Aika 1", name: "time1", widget: "string", language: "fi"},
+                {label: "Aika 1 harjoituspaikka", name: "time1location", widget: "string", language: "fi"},
+                {label: "Aika 2", name: "time2", widget: "string", language: "fi", required: false},
+                {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string", language: "fi", required: false}
+              ]}
+            - {label: "Training time", name: "timetable_item", widget: "list", language: "en", fields: [
+                {label: "Nimi", name: "name", widget: "string", language: "en"},
+                {label: "Aika 1", name: "time1", widget: "string", language: "en"},
+                {label: "Aika 1 harjoituspaikka", name: "time1location", widget: "string", language: "en"},
+                {label: "Aika 2", name: "time2", widget: "string", language: "en", required: false},
+                {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string", language: "en", required: false}
               ]}
         - label: "Valmentajat"
           name: "coaches"
