@@ -47,18 +47,18 @@ collections:
           name: "timetable"
           widget: "object"
           fields:
-            - {label: "Timetable Items", name: "timetable_item", widget: "list", fields: [
-                {label: "Name", name: "name", widget: "string"},
-                {label: "Time 1", name: "time1", widget: "string"},
-                {label: "Time 1 Location", name: "time1location", widget: "string"},
-                {label: "Time 2", name: "time2", widget: "string"},
-                {label: "Time 2 Location", name: "time2location", widget: "string"}
+            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: [
+                {label: "Nimi", name: "name", widget: "string"},
+                {label: "Aika 1", name: "time1", widget: "string"},
+                {label: "Aika 1 harjoituspaikka", name: "time1location", widget: "string"},
+                {label: "Aika 2", name: "time2", widget: "string"},
+                {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string"}
               ]}
         - label: "Valmentajat"
           name: "coaches"
           widget: "object"
           fields: 
-            - {label: "Coach_items", name: "coach_item", widget: "list", fields: [
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
                 {label: "Name", name: "name", widget: "string"},
                 {label: "Belt", name: "belt", widget: "string"},
                 {label: "Belt Color", name: "beltcolor", widget: "string"},
@@ -66,7 +66,6 @@ collections:
                 {label: "Description", name: "description", widget: "string"},
                 {label: "Description 2", name: "description2", widget: "string"}
               ]}
-        - {label: "More Info", name: "moreinfo", widget: "object", fields: [
-              {label: "Title", name: "title", widget: "string"},
-              {label: "Content", name: "content", widget: "markdown"}
+        - {label: "Karaten harrastajille", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
             ]}
