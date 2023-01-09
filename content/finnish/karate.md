@@ -1,6 +1,7 @@
 ---
 title: Karate
 description: Tietoa karatesta
+
 service:
   enable: true
   service_item:
