@@ -9,17 +9,21 @@ service:
       images:
       - ../../images/karatekata.jpg
       content: |
-      Originating from an unarmed martial art on the island of Okinawa (Japan), karate is today both a self-defense and a sport. The majority of karate practitioners focus on the more traditional form of karate, self-defense.
-      <br> <br>
-      Techniques practiced in karate include e.g. various punches, kicks, fights, controls and falls. In addition to fighting, the sport plays an important role in developing both physical and mental fitness, making karate a truly comprehensive form of exercise.
+        Karate is a traditional Japanese martial art that originated on the island of Okinawa. It is known for its focus on self-defense and its ability to improve both physical and mental fitness. 
+        
+        Whether you are interested in learning self-defense or simply looking for a comprehensive form of exercise, karate has something to offer for everyone.
         
     - title : Gijomon-kai
       images:
       - ../../images/karateyoi.jpg
-      content : |
-      Our karate style is called  Gijomon-kai, it focuses on on self-defense and develops the practitioner's overall fitness level rises.
-      The style was founded in 1977 by Yoshiji Kaku. In Finland, Kim Isaksson started teaching Gijomon-kai in 1994. Gijomon can be translated into English as “duty first” or “destiny is to act towards one's duty”. <br> <br>
-      In our style, there are seven unarmed kata modified from Shorinji ryu: Kenshi ho, Wanshu, Ananku, Seisan, Chinto, Gojushiho and Bassai Dai.      
+      content: |
+        Our club also practices a specific style of karate called Gijomon-kai. 
+        
+        This style was founded in 1977 by Yoshiji Kaku and introduced to Finland by Kim Isaksson in 1994. The name Gijomon means "duty first" or "destiny is to act towards one's duty" in English. 
+        
+        In our classes, you will learn a variety of punches, kicks, controls, throws, and falls, as well as how to apply them in self-defense situations.
+
+        We invite you to join us on the mat and discover the benefits of practicing karate and Gijomon-kai for yourself.
 
 timetable:
   enable : true
@@ -68,9 +72,9 @@ moreinfo:
   enable : true
   title : Information for karate practitioners
   content : |
-  Gijomon-kai karate practitioners belong to the All Japan Gijomonkai Karate-jutsu organization and, since 1998, also to the [Finnish Karate Association.](Https://karateliitto.fi/fi/) 
-  <br><br>
-  Up-to-date information on karate licenses and insurances can be found on the Finnish Karate Association's website under [licenses and insurances](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/) 
-  <br><br>
-  Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance.
+    Gijomon-kai karate practitioners belong to the All Japan Gijomonkai Karate-jutsu organization and, since 1998, also to the [Finnish Karate Association.](Https://karateliitto.fi/fi/) 
+    <br><br>
+    Up-to-date information on karate licenses and insurances can be found on the Finnish Karate Association's website under [licenses and insurances](https://karateliitto.fi/fi/lisenssit-ja-vakuutukset/) 
+    <br><br>
+    Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance.
 ---
