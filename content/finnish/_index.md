@@ -8,8 +8,8 @@ welcome:
     - title : "Tervetuloa tatamille!"
       images:
       - "../../images/karatekata.jpg"
-      - "../../images/bjjclass.png"
-      - "../../images/judogroup.png"
+      - "../../images/bjjclass.webp"
+      - "../../images/judogroup.webp"
       content : "Kokkolan Budo on kokkolassa toimiva, vuonna 1993 perustettu budolajeja edustava seura. Meillä on mahdollista harrastaa kolmea kamppailu- ja itsepuolustuslajia, jotka ovat bjj, judo sekä karate. Tervetuloa tutustumaan!"
 
 ##################### News ##########################
@@ -28,8 +28,8 @@ news:
 lajit:
   title: "Meillä voit harrastaa seuraavia lajeja"
   enable: true
-  bjj_image: "../../images/bjjtemp.png"
-  judo_image: "../../images/judotemp.png"
+  bjj_image: "../../images/bjjtemp.webp"
+  judo_image: "../../images/judotemp.webp"
   karate_image: "../../images/karate2.jpg"
   bjjdesc: "BJJ eli Brasilian Jujutsu on tehokas ja haasteita tarjoava kamppailulaji. Lajin tehokkuus piilee sen realistisissa mattopainitekniikoissa: erityisesti erilaisissa lukoissa ja kuristuksissa."
   judodesc: "Judossa opit painiotteita, heittoja, lukkoja ja vastustajan kunnioittamista. Kokkolan Budossa joukkoon mahtuu harrastamaan sekä kunto- että kisajudoa. Judo sopii kaiken ikäisille."
@@ -75,9 +75,9 @@ feature:
     # service item loop
     #- title : "It is the most advanced digital marketing and it company."
     #  images:
-    #  - "images/service-1.png"
-    #  - "images/service-2.png"
-    #  - "images/service-3.png"
+    #  - "images/service-1.webp"
+    #  - "images/service-2.webp"
+    #  - "images/service-3.webp"
     #  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     #  button:
     #    enable : true
@@ -87,7 +87,7 @@ feature:
     # service item loop
    # - title : "It is a privately owned Information and cyber security company"
    #   images:
-   #   - "images/service-1.png"
+   #   - "images/service-1.webp"
    #   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
    #   button:
   #      enable : true
@@ -97,7 +97,7 @@ feature:
     # service item loop
   #  - title : "It’s a team of experienced and skilled people with distributions"
   #    images:
-  #    - "images/service-2.png"
+  #    - "images/service-2.webp"
   #    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
    #   button:
    #     enable : true
@@ -107,7 +107,7 @@ feature:
     # service item loop
   #  - title : "A company standing different from others"
   #    images:
-  #    - "images/service-3.png"
+  #    - "images/service-3.webp"
   #    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
  #     button:
 #        enable : true

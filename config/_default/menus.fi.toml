@@ -63,27 +63,27 @@ icon = "fab fa-instagram"
 
 # footer menu right
 [[footer_right]]
-name = "Dojon säännöt"
+name = "🥋Dojon säännöt"
 url = "dojorules"
 weight = 1
 
 [[footer_right]]
-name = "Seuran säännöt"
+name = "📜Seuran säännöt"
 url = "clubrules"
 weight = 2
 
 [[footer_right]]
-name = "Suomisport"
+name = "🔗Suomisport"
 url = "https://www.suomisport.fi/?locale=fi_FI"
 weight = 3
 
 [[footer_farright]]
-name = "Usein kysyttyä"
+name = "❓Usein kysyttyä"
 url = "faq"
 weight = 1
 
 # footer menu far right
 [[footer_farright]]
-name = "Yhteystiedot"
+name = "📌Yhteystiedot"
 url = "contact"
 weight = 2

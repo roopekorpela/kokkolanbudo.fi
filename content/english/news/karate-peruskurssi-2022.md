@@ -1,7 +1,7 @@
 ---
 title: "Karate basic course 2022"
 date: 2022-08-01T09:00:07+03:00
-image: "images/blog/karate-peruskurssi-2022.png"
+image: "images/blog/karate-peruskurssi-2022.webp"
 type: "regular"
 summary: The new basic karate course starts on Wednesday 17 August 2022 at 17:00.
 draft: false

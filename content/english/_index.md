@@ -8,8 +8,8 @@ welcome:
     - title : "Welcome!"
       images:
       - "../../images/karatekata.jpg"
-      - "../../images/bjjclass.png"
-      - "../../images/judogroup.png"
+      - "../../images/bjjclass.webp"
+      - "../../images/judogroup.webp"
       content : "Kokkola Budo is a martial arts club located in Kokkola that was founded in 1993. We offer the opportunity to practice three types of martial arts/self-defense, which are bjj, judo and karate."
 
 
@@ -17,8 +17,8 @@ welcome:
 lajit:
   title: "Martial arts"
   enable: true
-  bjj_image: "../../images/bjjtemp.png"
-  judo_image: "../../images/judotemp.png"
+  bjj_image: "../../images/bjjtemp.webp"
+  judo_image: "../../images/judotemp.webp"
   karate_image: "../../images/karate2.jpg"
   bjjdesc: "Brazilian Jiu-Jitsu is a martial art and combat sport based on ground fighting and submission holds. It focuses on the skill of taking an opponent to the ground, controlling one's opponent, gaining a dominant position, and using a number of techniques to force them into submission via joint locks or chokeholds."
   judodesc: "In Judo you will learn wrestling, throws, locks and respect for your opponent. In Kokkola Budo you can do judo for fitness and competition. Judo is suitable for all ages."
@@ -75,7 +75,7 @@ feature:
     # service item loop
    # - title : "It is a privately owned Information and cyber security company"
    #   images:
-   #   - "images/service-1.png"
+   #   - "images/service-1.webp"
    #   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
    #   button:
   #      enable : true
@@ -85,7 +85,7 @@ feature:
     # service item loop
   #  - title : "It’s a team of experienced and skilled people with distributions"
   #    images:
-  #    - "images/service-2.png"
+  #    - "images/service-2.webp"
   #    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
    #   button:
    #     enable : true
@@ -95,7 +95,7 @@ feature:
     # service item loop
   #  - title : "A company standing different from others"
   #    images:
-  #    - "images/service-3.png"
+  #    - "images/service-3.webp"
   #    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
  #     button:
 #        enable : true

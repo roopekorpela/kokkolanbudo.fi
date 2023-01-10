@@ -1,7 +1,7 @@
 ---
 title: "BJJ basic course 2022"
 date: 2022-08-01T08:00:07+03:00
-image: "images/blog/bjj-peruskurssi-2022-syksy.png"
+image: "images/blog/bjj-peruskurssi-2022-syksy.webp"
 type: "regular"
 summary: Uusi BJJ:n peruskurssi alkaa 30.08.2022.
 draft: false

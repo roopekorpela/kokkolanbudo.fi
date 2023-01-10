@@ -1,10 +1,10 @@
 #################### default parameters ################################
-logo = "images/kokkolanbudo.png"
+logo = "images/kokkolanbudo.webp"
 logo_width = "175px"
-logo2 = "images/kokkolanbudologowhite.png"
+logo2 = "images/kokkolanbudologowhite.webp"
 description = "Kokkolan Budo ry - Kokkolalainen budo seura, joka tarjoaa mahdollisuuden harrastaa karatea, judoa sekä brasilialaista jujutsua."
 author = "Roope Korpela"
-image = "images/kokkolanbudo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/kokkolanbudo.webp" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_bjj_action = "https://forms.un-static.com/forms/11e372eaba323a68693a3b6d654b22c81319e974" # contact form works with https://forms.un-static.com
 contact_judo_action = "https://forms.un-static.com/forms/710c018bafabc4b3d30ede2f24489f3dfb3e2c98" # contact form works with https://forms.un-static.com

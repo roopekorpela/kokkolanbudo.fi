@@ -2,7 +2,7 @@
 title: "New karate basic course"
 date: 2020-10-19T10:07:21+06:00
 # post image
-image: "images/blog/karate-peruskurssi-2021.png"
+image: "images/blog/karate-peruskurssi-2021.webp"
 type: "regular"
 summary: New karate basic course starts 03.11.2021.
 draft: false

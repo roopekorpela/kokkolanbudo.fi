@@ -58,9 +58,9 @@
           {{ range $.Translations }}
             <li>              
                 {{ if eq .Language.LanguageName "English" }}
-                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">Suomi ⇄ English</a>
+                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">🌍Suomi ⇄ English</a>
                 {{ else }}
-                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">English ⇄ Suomi</a>
+                <a href="{{ .Permalink | absLangURL }}" title="{{ .Language.LanguageName }}">🌍English ⇄ Suomi</a>
                 {{ end }}
                 <!--<a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
                   {{ if eq .Language.LanguageName "English" }}Suomi ⇄ English{{ else }}English ⇄ Suomi{{ end }}</a>-->

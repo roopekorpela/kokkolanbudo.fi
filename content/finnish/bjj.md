@@ -20,7 +20,7 @@ service:
     # service item loop
     - title : "BJJ Kokkolassa"
       images:
-      - "../../images/bjjclass.png"
+      - "../../images/bjjclass.webp"
       content : "
      Kokkolassa BJJ:tä on harrastettu vuodesta 2016 alkaen. Tuoreudestaan huolimatta laji on koukuttanut jo useita kymmeniä harrastajia ja suosio onkin kovassa kasvussa. Harjoitukset soveltuvat kaikille – sukupuoleen tai fyysiseen kuntoon katsomatta. Harjoituksissa on todella tekemisen meininkiä ja tunnelma on avoin ja ystävällinen.<br><br>
 
@@ -55,37 +55,37 @@ coaches:
     - name : "Miika Välimäki"
       belt : "purppura vyö"
       beltcolor : "#5E3E8D"
-      image : "../../images/Miika Välimäki.png"
+      image : "../../images/coaches/Miika Välimäki.webp"
       description : "Valmentaja"
   # valmentaja_item
     - name : "Niko Koivisto"
       belt : "purppura vyö"
       beltcolor : "#5E3E8D"
-      image : "../../images/Niko Koivisto.png"
+      image : "../../images/coaches/Niko Koivisto.webp"
       description : "Valmentaja"
   # valmentaja_item
     - name : "Tomas Ahlstrand"
       belt : "ruskea vyö"
       beltcolor : "#3f2a14"
-      image : "../../images/Tomas Ahlstrand.png"
+      image : "../../images/coaches/Tomas Ahlstrand.webp"
       description : "Valmentaja"
   # valmentaja_item
     - name : "Markus Nordbäck"
       belt : "sininen vyö"
       beltcolor : "#355cb0"
-      image : "../../images/Markus Nordbäck.png"
+      image : "../../images/coaches/Markus Nordbäck.webp"
       description : "Valmentaja"
   # valmentaja_item
     - name : "Endre Prágai"
       belt : "sininen vyö"
       beltcolor : "#355cb0"
-      image : "../../images/Endre Prágai.png"
+      image : "../../images/coaches/Endre Prágai.webp"
       description : "Valmentaja"
   # valmentaja_item
     - name : "Niko Hartikainen"
       belt : "sininen vyö"
       beltcolor : "#355cb0"
-      image : "../../images/Niko Hartikainen.png"
+      image : "../../images/coaches/Missing Picture.webp"
       description : "Valmentaja"
 
 moreinfo:

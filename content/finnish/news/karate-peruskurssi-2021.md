@@ -1,7 +1,7 @@
 ---
 title: "Uusi karaten peruskurssi"
 date: 2020-04-18T10:07:21+06:00
-image: "images/blog/karate-peruskurssi-2021.png"
+image: "images/blog/karate-peruskurssi-2021.webp"
 type: "regular"
 summary: Uusi karaten peruskurssi alkaa keskiviikkona 03.11.2021 klo 17:00.
 draft: false

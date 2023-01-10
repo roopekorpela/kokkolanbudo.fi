@@ -1,7 +1,7 @@
 ---
 title: "New BJJ basic course"
 date: 2022-03-15T20:00:41+02:00
-image: "images/blog/bjj-peruskurssi-2022.png"
+image: "images/blog/bjj-peruskurssi-2022.webp"
 type: "regular"
 summary: New BJJ basic course starts in 05.04.2022.
 draft: false

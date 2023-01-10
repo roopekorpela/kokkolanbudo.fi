@@ -63,26 +63,26 @@ icon = "fab fa-instagram"
 
 # footer menu right
 [[footer_right]]
-name = "Dojo rules"
+name = "🥋Dojo rules"
 url = "dojorules"
 weight = 1
 
 [[footer_right]]
-name = "Club rules"
+name = "📜Club rules"
 url = "clubrules"
 weight = 2
 
 [[footer_right]]
-name = "Suomisport"
+name = "🔗Suomisport"
 url = "https://www.suomisport.fi/?locale=en_GB"
 weight = 3
 
 [[footer_farright]]
-name = "FAQ"
+name = "❓FAQ"
 url = "faq"
 weight = 1
 
 [[footer_farright]]
-name = "Contact us"
+name = "📌Contact us"
 url = "contact"
 weight = 2

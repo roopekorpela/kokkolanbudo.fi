@@ -1,8 +1,6 @@
 ---
-title: "Frequently asked questions"
-subtitle: ""
-# meta description
-description: "This is meta description"
+title: "FAQ"
+description: "Frequently asked questions"
 draft: false
 layout: faq
 ---

@@ -20,7 +20,7 @@ service:
     # service item loop
     - title : "BJJ in Kokkola"
       images:
-      - "../../images/bjjclass.png"
+      - "../../images/bjjclass.webp"
       content : "
       BJJ has been practiced in Kokkola since 2016. Despite its novelty, the sport has already attracted several dozen enthusiasts and its popularity is growing rapidly. Exercises are suitable for everyone - regardless of gender or physical fitness. The workouts are really about doing and the atmosphere is open and friendly.
 
@@ -55,37 +55,37 @@ coaches:
     - name : "Miika Välimäki"
       belt : "purple belt"
       beltcolor : "#5E3E8D"
-      image : "../../images/Miika Välimäki.png"
+      image : "../../images/coaches/Miika Välimäki.webp"
       description : "BJJ coach"
   # valmentaja_item
     - name : "Niko Koivisto"
       belt : "purple belt"
       beltcolor : "#5E3E8D"
-      image : "../../images/Niko Koivisto.png"
+      image : "../../images/coaches/Niko Koivisto.webp"
       description : "BJJ coach"
   # valmentaja_item
     - name : "Tomas Ahlstrand"
       belt : "brown belt"
       beltcolor : "#3f2a14"
-      image : "../../images/Tomas Ahlstrand.png"
+      image : "../../images/coaches/Tomas Ahlstrand.webp"
       description : "BJJ coach"
   # valmentaja_item
     - name : "Markus Nordbäck"
       belt : "blue belt"
       beltcolor : "#355cb0"
-      image : "../../images/Markus Nordbäck.png"
+      image : "../../images/coaches/Markus Nordbäck.webp"
       description : "BJJ Coach"
   # valmentaja_item
     - name : "Endre Prágai"
       belt : "blue belt"
       beltcolor : "#355cb0"
-      image : "../../images/Endre Prágai.png"
+      image : "../../images/coaches/Endre Prágai.webp"
       description : "BJJ coach"
   # valmentaja_item
     - name : "Niko Hartikainen"
       belt : "blue belt"
       beltcolor : "#355cb0"
-      image : "../../images/Niko Hartikainen.png"
+      image : "../../images/coaches/Missing Picture.webp"
       description : "BJJ coach"
 
 moreinfo:
