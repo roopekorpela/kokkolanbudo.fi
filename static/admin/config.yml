@@ -7,333 +7,334 @@ media_folder: "static/images" # Media files will be stored in the repo under sta
 public_folder: "images"
 
 collections:
-  - name: "news-fi"
-    label: "Uutiset (Finnish)"
-    folder: "content/finnish/news"
-    create: true
-    slug: "{{slug}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields:
-      - {label: "Uutisen otsikko", name: "title", widget: "string"}
-      - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-      - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
-      - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
+- name: "news-fi"
+  label: "Uutiset (Finnish)"
+  folder: "content/finnish/news"
+  create: true
+  slug: "{{slug}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields:
+    - {label: "Uutisen otsikko", name: "title", widget: "string"}
+    - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"}
+    - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
+    - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
 
-  - name: "news-en"
-    label: "Uutiset (English)"
-    folder: "content/english/news"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields:
-      - {label: "Uutisen otsikko", name: "title", widget: "string"}
-      - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-      - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
-      - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
+- name: "news-en"
+  label: "Uutiset (English)"
+  folder: "content/english/news"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields:
+    - {label: "Uutisen otsikko", name: "title", widget: "string"}
+    - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"}
+    - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
+    - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
 
-  - name: "pages" 
-    label: "Sivut"
-    files:
-      - file: "content/finnish/faq.md" 
-        name: "faq-fi"
-        label: "Usein kysyttyä (Finnish)"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }}
-      - file: "content/english/faq.md" 
-        name: "faq-en"
-        label: "Usein kysyttyä (English)"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }
+- name: "pages" 
+  label: "Sivut"
+  files:
+    - file: "content/finnish/faq.md" 
+      name: "faq-fi"
+      label: "Usein kysyttyä (Finnish)"
+      fields:
+        - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }
+        
+    - file: "content/english/faq.md" 
+      name: "faq-en"
+      label: "Usein kysyttyä (English)"
+      fields:
+        - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }
 
-      - file: "content/finnish/karate.md" 
-        name: "karate-fi"    
-        label: "Karate (Finnish)"
-        fields:
-          - label: "Lajin esittely tekstit"
-            name: "service"
-            widget: "object"
-            fields:
-              - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
-                [
-                  { label: "Otsikko", name: "title", widget: "string" },
-                  { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-                  { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
-
-          - label: "Harjoitusajat"
-            name: "timetable"
-            widget: "object"
-            fields:
-              - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
-                [
-                  {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
-                  {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]},
-                  {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]}
-                ]}
-
-          - label: "Valmentajat"
-            name: "coaches"
-            widget: "object"
-            fields: 
-              - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
-                  {label: "Valmentajan nimi", name: "name", widget: "string"},
-                  {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
-                  {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
-                        { label: "Musta", value: "#222" },
-                        { label: "Purppura", value: "#5E3E8D" },
-                        { label: "Ruskea", value: "#3f2a14" },
-                        { label: "Sininen", value: "#355cb0" },
-                        { label: "Ei tiedossa", value: "#DEDED9" }
-                  ]},
-                  {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
-                  {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
-                  {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
-                ]}
-          - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
-                {label: "Sisältö", name: "content", widget: "markdown"}
-              ]}
-      
-      - file: "content/english/karate.md" 
-        name: "karate-en"    
-        label: "Karate (English)"
-        fields:
-          - label: "Lajin esittely tekstit (English)"
-            name: "service"
-            widget: "object"
-            fields:
-              - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: [
+    - file: "content/finnish/karate.md" 
+      name: "karate-fi"    
+      label: "Karate (Finnish)"
+      fields:
+        - label: "Lajin esittely tekstit"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
+              [
                 { label: "Otsikko", name: "title", widget: "string" },
                 { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
                 { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
+              ]}
 
-          - label: "Harjoitusajat (English)"
-            name: "timetable"
-            widget: "object"
-            fields:
-              - {label: "Harjoitusaika (English)", name: "timetable_item", widget: "list", fields: 
+        - label: "Harjoitusajat"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
+              [
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
                 [
-                  {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
-                  {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Write in the form: **Monday 17:00-18:00**"},
-                  {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
-                  [
-                    "(Martial Arts Center, smaller side)",
-                    "(Martial Arts Center, bigger side)"
-                  ]},
-                  {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Write in the form: **Monday 17:00-18:00**"},
-                  {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
-                  [
-                    "(Martial Arts Center, smaller side)",
-                    "(Martial Arts Center, bigger side)"
-                  ]}
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
                 ]}
-                
-          - label: "Valmentajat (English)"
-            name: "coaches"
-            widget: "object"
-            fields: 
-              - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
-                  {label: "Valmentajan nimi", name: "name", widget: "string"},
-                  {label: "Vyön nimi", name: "belt", widget: "string", hint: "For example: **1. dan black belt**"},
-                  {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
-                        { label: "Musta", value: "#222" },
-                        { label: "Purppura", value: "#5E3E8D" },
-                        { label: "Ruskea", value: "#3f2a14" },
-                        { label: "Sininen", value: "#355cb0" },
-                        { label: "Ei tiedossa", value: "#DEDED9" }
-                  ]},
-                  {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
-                  {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
-                  {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
-                ]}
+              ]}
 
-          - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
-                {label: "Sisältö", name: "content", widget: "markdown"}
-              ]}  
+        - label: "Valmentajat"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
+                {label: "Valmentajan nimi", name: "name", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
+                {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
+                      { label: "Musta", value: "#222" },
+                      { label: "Purppura", value: "#5E3E8D" },
+                      { label: "Ruskea", value: "#3f2a14" },
+                      { label: "Sininen", value: "#355cb0" },
+                      { label: "Ei tiedossa", value: "#DEDED9" }
+                ]},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
+              ]}
+        - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
+            ]}
     
-      - file: "content/finnish/judo.md" 
-        name: "judo-fi"    
-        label: "Judo (Finnish)"
-        fields:
-          - label: "Lajin esittely tekstit"
-            name: "service"
-            widget: "object"
-            fields:
-              - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
-                [
-                  { label: "Otsikko", name: "title", widget: "string" },
-                  { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-                  { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
-
-          - label: "Harjoitusajat"
-            name: "timetable"
-            widget: "object"
-            fields:
-              - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
-                [
-                  {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
-                  {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]},
-                  {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]}
-                ]}
-
-          - label: "Valmentajat"
-            name: "coaches"
-            widget: "object"
-            fields: 
-              - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
-                  {label: "Valmentajan nimi", name: "name", widget: "string"},
-                  {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
-                  {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
-                        { label: "Musta", value: "#222" },
-                        { label: "Purppura", value: "#5E3E8D" },
-                        { label: "Ruskea", value: "#3f2a14" },
-                        { label: "Sininen", value: "#355cb0" },
-                        { label: "Ei tiedossa", value: "#DEDED9" }
-                  ]},
-                  {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
-                  {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
-                  {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
-                ]}
-          - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
-                {label: "Sisältö", name: "content", widget: "markdown"}
+    - file: "content/english/karate.md" 
+      name: "karate-en"    
+      label: "Karate (English)"
+      fields:
+        - label: "Lajin esittely tekstit (English)"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: [
+              { label: "Otsikko", name: "title", widget: "string" },
+              { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+              { label: "Sisältö", name: "content", widget: "markdown" }
               ]}
-      
-      - file: "content/english/judo.md" 
-        name: "judo-en"    
-        label: "Judo (English)"
-        fields:
-          - label: "Lajin esittely tekstit (English)"
-            name: "service"
-            widget: "object"
-            fields:
-              - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: [
+
+        - label: "Harjoitusajat (English)"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Harjoitusaika (English)", name: "timetable_item", widget: "list", fields: 
+              [
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]}
+              ]}
+              
+        - label: "Valmentajat (English)"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
+                {label: "Valmentajan nimi", name: "name", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "For example: **1. dan black belt**"},
+                {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
+                      { label: "Musta", value: "#222" },
+                      { label: "Purppura", value: "#5E3E8D" },
+                      { label: "Ruskea", value: "#3f2a14" },
+                      { label: "Sininen", value: "#355cb0" },
+                      { label: "Ei tiedossa", value: "#DEDED9" }
+                ]},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
+              ]}
+
+        - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
+            ]}  
+  
+    - file: "content/finnish/judo.md" 
+      name: "judo-fi"    
+      label: "Judo (Finnish)"
+      fields:
+        - label: "Lajin esittely tekstit"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
+              [
                 { label: "Otsikko", name: "title", widget: "string" },
                 { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
                 { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
-
-          - label: "Harjoitusajat (English)"
-            name: "timetable"
-            widget: "object"
-            fields:
-              - {label: "Harjoitusaika (English)", name: "timetable_item", widget: "list", fields: 
-                [
-                  {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
-                  {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Write in the form: **Monday 17:00-18:00**"},
-                  {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
-                  [
-                    "(Martial Arts Center, smaller side)",
-                    "(Martial Arts Center, bigger side)"
-                  ]},
-                  {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Write in the form: **Monday 17:00-18:00**"},
-                  {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
-                  [
-                    "(Martial Arts Center, smaller side)",
-                    "(Martial Arts Center, bigger side)"
-                  ]}
-                ]}
-                
-          - label: "Valmentajat (English)"
-            name: "coaches"
-            widget: "object"
-            fields: 
-              - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
-                  {label: "Valmentajan nimi", name: "name", widget: "string"},
-                  {label: "Vyön nimi", name: "belt", widget: "string", hint: "For example: **1. dan black belt**"},
-                  {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
-                        { label: "Musta", value: "#222" },
-                        { label: "Purppura", value: "#5E3E8D" },
-                        { label: "Ruskea", value: "#3f2a14" },
-                        { label: "Sininen", value: "#355cb0" },
-                        { label: "Ei tiedossa", value: "#DEDED9" }
-                  ]},
-                  {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
-                  {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
-                  {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
-                ]}
-
-          - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
-                {label: "Sisältö", name: "content", widget: "markdown"}
-              ]}  
-
-      - file: "content/finnish/bjj.md" 
-        name: "bjj-fi"    
-        label: "BJJ (Finnish)"
-        fields:
-          - label: "Lajin esittely tekstit"
-            name: "service"
-            widget: "object"
-            fields:
-              - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
-                [
-                  { label: "Otsikko", name: "title", widget: "string" },
-                  { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-                  { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
-
-          - label: "Harjoitusajat"
-            name: "timetable"
-            widget: "object"
-            fields:
-              - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
-                [
-                  {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
-                  {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]},
-                  {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                  {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
-                  [
-                    "(Martial Arts Center, pieni puoli)",
-                    "(Martial Arts Center, iso puoli)"
-                  ]}
-                ]}
-
-          - label: "Valmentajat"
-            name: "coaches"
-            widget: "object"
-            fields: 
-              - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
-                  {label: "Valmentajan nimi", name: "name", widget: "string"},
-                  {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
-                  {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
-                        { label: "Musta", value: "#222" },
-                        { label: "Purppura", value: "#5E3E8D" },
-                        { label: "Ruskea", value: "#3f2a14" },
-                        { label: "Sininen", value: "#355cb0" },
-                        { label: "Ei tiedossa", value: "#DEDED9" }
-                  ]},
-                  {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
-                  {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
-                  {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
-                ]}
-          - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
-                {label: "Sisältö", name: "content", widget: "markdown"}
               ]}
-      
-      - file: "content/english/bjj.md" 
+
+        - label: "Harjoitusajat"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
+              [
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
+                [
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
+                ]}
+              ]}
+
+        - label: "Valmentajat"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
+                {label: "Valmentajan nimi", name: "name", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
+                {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
+                      { label: "Musta", value: "#222" },
+                      { label: "Purppura", value: "#5E3E8D" },
+                      { label: "Ruskea", value: "#3f2a14" },
+                      { label: "Sininen", value: "#355cb0" },
+                      { label: "Ei tiedossa", value: "#DEDED9" }
+                ]},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
+              ]}
+        - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
+            ]}
+    
+    - file: "content/english/judo.md" 
+      name: "judo-en"    
+      label: "Judo (English)"
+      fields:
+        - label: "Lajin esittely tekstit (English)"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: [
+              { label: "Otsikko", name: "title", widget: "string" },
+              { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+              { label: "Sisältö", name: "content", widget: "markdown" }
+              ]}
+
+        - label: "Harjoitusajat (English)"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Harjoitusaika (English)", name: "timetable_item", widget: "list", fields: 
+              [
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]}
+              ]}
+              
+        - label: "Valmentajat (English)"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
+                {label: "Valmentajan nimi", name: "name", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "For example: **1. dan black belt**"},
+                {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
+                      { label: "Musta", value: "#222" },
+                      { label: "Purppura", value: "#5E3E8D" },
+                      { label: "Ruskea", value: "#3f2a14" },
+                      { label: "Sininen", value: "#355cb0" },
+                      { label: "Ei tiedossa", value: "#DEDED9" }
+                ]},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
+              ]}
+
+        - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
+            ]}  
+
+    - file: "content/finnish/bjj.md" 
+      name: "bjj-fi"    
+      label: "BJJ (Finnish)"
+      fields:
+        - label: "Lajin esittely tekstit"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
+              [
+                { label: "Otsikko", name: "title", widget: "string" },
+                { label: "Kuva", name: "images", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+                { label: "Sisältö", name: "content", widget: "markdown" }
+              ]}
+
+        - label: "Harjoitusajat"
+          name: "timetable"
+          widget: "object"
+          fields:
+            - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
+              [
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
+                [
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, pieni puoli)",
+                  "(Martial Arts Center, iso puoli)"
+                ]}
+              ]}
+
+        - label: "Valmentajat"
+          name: "coaches"
+          widget: "object"
+          fields: 
+            - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
+                {label: "Valmentajan nimi", name: "name", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
+                {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
+                      { label: "Musta", value: "#222" },
+                      { label: "Purppura", value: "#5E3E8D" },
+                      { label: "Ruskea", value: "#3f2a14" },
+                      { label: "Sininen", value: "#355cb0" },
+                      { label: "Ei tiedossa", value: "#DEDED9" }
+                ]},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
+              ]}
+        - {label: "Tietoa lajin harrastajille", name: "moreinfo", widget: "object", fields: [
+              {label: "Sisältö", name: "content", widget: "markdown"}
+            ]}
+    
+    - file: "content/english/bjj.md" 
       name: "bjj-en"    
       label: "BJJ (English)"
       fields:
