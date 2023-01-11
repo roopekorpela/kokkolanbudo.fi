@@ -1,45 +1,47 @@
 # Netlify CMS configuration file
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 
 media_folder: "static/images" # Media files will be stored in the repo under static/images
 public_folder: "images"
 
 collections:
-- name: "news-fi" # Used in routes, e.g., /admin/collections/blog
-  label: "Uutiset (Finnish)" # Used in the UI
-  folder: "content/finnish/news" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
+- name: "news-fi"
+  label: "Uutiset (Finnish)"
+  folder: "content/finnish/news"
+  create: true
   slug: "{{slug}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Featured Image", name: "image", widget: "image"}
-    - {label: "Summary", name: "summary", widget: "markdown"}
-    - {label: "Body", name: "body", widget: "markdown"}
+  fields:
+    - {label: "Uutisen otsikko", name: "title", widget: "string"}
+    - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+    - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
+    - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
 
-- name: "news-en" # Used in routes, e.g., /admin/collections/blog
-  label: "Uutiset (English)" # Used in the UI
-  folder: "content/english/news" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
+- name: "news-en"
+  label: "Uutiset (English)"
+  folder: "content/english/news"
+  create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Featured Image", name: "image", widget: "image"}
-    - {label: "Summary", name: "summary", widget: "markdown"}
-    - {label: "Body", name: "body", widget: "markdown"}
+  fields:
+    - {label: "Uutisen otsikko", name: "title", widget: "string"}
+    - {label: "Uutisen kuva", name: "image", widget: "image", hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+    - {label: "Yhden lauseen tiivistelmä uutisen sisällöstä", name: "summary", widget: "markdown"}
+    - {label: "Uutisen sisältö", name: "body", widget: "markdown"}
 
 - name: "pages" 
   label: "Sivut"
   files:
-    - file: "content/finnish/clubrules.md" 
-      name: "clubrules-fi"
-      label: "Dojo säännöt"
+    - file: "content/finnish/faq.md" 
+      name: "faq-fi"
+      label: "Usein kysyttyä (Finnish)"
       fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }}
+    - file: "content/english/faq.md" 
+      name: "faq-en"
+      label: "Usein kysyttyä (English)"
+      fields:
+        - {label: "Body", name: "body", widget: "markdown", hint: "Kopioi FAQ koodi merkit jos lisäät uutta sisältöä, muista myös käydä lisäämässä käännös suomenkieliselle puolelle." }
 
     - file: "content/finnish/karate.md" 
       name: "karate-fi"    

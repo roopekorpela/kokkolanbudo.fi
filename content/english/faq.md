@@ -1,7 +1,6 @@
 ---
 title: "FAQ"
 description: "Frequently asked questions"
-draft: false
 layout: faq
 ---
 {{< faq "What are the training fees? " >}}

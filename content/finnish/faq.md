@@ -1,8 +1,6 @@
 ---
 title: "Usein kysyttyä"
-subtitle: ""
-# meta description
-draft: false
+description: "Usein kysyttyä"
 layout: faq
 ---
 {{< faq "Millaiset ovat harjoitusmaksut?" >}}

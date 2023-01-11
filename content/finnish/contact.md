@@ -1,9 +1,6 @@
 ---
 title: "Yhteystiedot"
-subtitle: ""
-# meta description
 description: "Yhteystiedot ja ota meihin yhteyttä"
-draft: false
 layout: contact
 
 ##################### contactform ##########################
@@ -27,8 +24,8 @@ Kokkolan Budo on vuonna 1993 perustettu kolmen kamppailulajin yhteinen urheiluse
 **Puheenjohtaja:** Antti Pitkänen (Judo) &#9742; 050 3054 361  
 
 **Sihteeri:** Joakim Honga (BJJ)  
-**Rahastonhoitaja:** Num Syrjälä (Karate)  
+**Rahastonhoitaja:** Meira Ylitalo (BJJ)
 
-**Hallituksen jäsen:** Joona Syri (Judo)  
+**Hallituksen jäsen:** Tomi Niemi (Karate)  
 **Hallituksen jäsen:** Roope Korpela (Karate)  
 **Hallituksen jäsen:** Toni Salmela (BJJ)
