@@ -50,27 +50,27 @@ collections:
           fields:
             - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
               [
-                {label: "Nimi", name: "name", widget: "string"},
-                {label: "Aika 1", name: "time1", widget: "string"},
-                {label: "Aika 1 harjoituspaikka", name: "time1location", widget: "string"},
-                {label: "Aika 2", name: "time2", widget: "string", required: false},
-                {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string", required: false}
+                {label: "Harjoituksen nimi", name: "name", widget: "string"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "string"},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "string", required: false}
               ],
-                custom_preview: (props) => {
-                    return (
-                        <ul>
-                            {props.value.map((item, index) => {
-                                return (
-                                    <li key={index}>
-                                        <p>Nimi: {item.name}</p>
-                                        <p>Aika 1: {item.time1}, harjoituspaikka: {item.time1location}</p>
-                                        {item.time2 && <p>Aika 2: {item.time2}, harjoituspaikka: {item.time2location}</p>}
-                                    </li>
-                                )
-                            })}
-                        </ul>
-                    )
-                }
+              custom_preview: (props) => {
+                return (
+                    <ul>
+                        {props.value.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <p>Nimi: {item.name}</p>
+                                    <p>1. harjoitusaika: {item.time1}, harjoituspaikka: {item.time1location}</p>
+                                    {item.time2 && <p>2. harjoitusaika: {item.time2}, harjoituspaikka: {item.time2location}</p>}
+                                </li>
+                            )
+                        })}
+                    </ul>
+                  )
+               }
               }
         - label: "Valmentajat"
           name: "coaches"
