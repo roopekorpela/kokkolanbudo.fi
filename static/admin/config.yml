@@ -55,22 +55,22 @@ collections:
                 {label: "Aika 2", name: "time2", widget: "string", required: false},
                 {label: "Aika 2 harjoituspaikka", name: "time2location", widget: "string", required: false}
               ],
-          custom_preview: (props) => {
-              return (
-                  <ul>
-                      {props.value.map((item, index) => {
-                          return (
-                              <li key={index}>
-                                  <p>Nimi: {item.name}</p>
-                                  <p>Aika 1: {item.time1}, harjoituspaikka: {item.time1location}</p>
-                                  {item.time2 && <p>Aika 2: {item.time2}, harjoituspaikka: {item.time2location}</p>}
-                              </li>
-                          )
-                      })}
-                  </ul>
-              )
-          }
-        }
+              custom_preview: (props) => {
+                  return (
+                      <ul>
+                          {props.value.map((item, index) => {
+                              return (
+                                  <li key={index}>
+                                      <p>Nimi: {item.name}</p>
+                                      <p>Aika 1: {item.time1}, harjoituspaikka: {item.time1location}</p>
+                                      {item.time2 && <p>Aika 2: {item.time2}, harjoituspaikka: {item.time2location}</p>}
+                                  </li>
+                              )
+                          })}
+                      </ul>
+                  )
+              }
+            }
         - label: "Valmentajat"
           name: "coaches"
           widget: "object"
