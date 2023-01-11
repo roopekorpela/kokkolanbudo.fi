@@ -2,61 +2,14 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-  identity: true
+
 media_folder: "static/images" # Media files will be stored in the repo under static/images
 public_folder: "images"
-
 publish_mode: editorial_workflow
 
-roles:
-  - name: Admin
-    label: Admin
-    permissions:
-    - "*"
-  - name: KarateEditor
-    label: KarateEditor
-    permissions:
-    - collection: "karate"
-      create: true
-      read: true
-      update: true
-      delete: true
-      publish: true
-    - collection: "judo"
-      read: true
-    - collection: "bjj"
-      read: true
-  - name: BJJEditor
-    label: BJJEditor
-    permissions:
-    - collection: "bjj"
-      create: true
-      read: true
-      update: true
-      delete: true
-      publish: true
-    - collection: "judo"
-      read: true
-    - collection: "karate"
-      read: true
- - name: JudoEditor
-    label: JudoEditor
-    permissions:
-    - collection: "judo"
-      create: true
-      read: true
-      update: true
-      delete: true
-      publish: true
-    - collection: "karate"
-      read: true
-    - collection: "bjj"
-      read: true
-
-
 collections:
-- name: "uutiset" # Used in routes, e.g., /admin/collections/blog
-  label: "Uutinen (Finnish)" # Used in the UI
+- name: "news-fi" # Used in routes, e.g., /admin/collections/blog
+  label: "Uutiset (Finnish)" # Used in the UI
   folder: "content/finnish/news" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -67,8 +20,8 @@ collections:
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
 
-- name: "news" # Used in routes, e.g., /admin/collections/blog
-  label: "Uutinen (English)" # Used in the UI
+- name: "news-en" # Used in routes, e.g., /admin/collections/blog
+  label: "Uutiset (English)" # Used in the UI
   folder: "content/english/news" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -79,8 +32,8 @@ collections:
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
 
-- name: "karate" 
-  label: "Karate"
+- name: "pages" 
+  label: "Sivut"
   files:
     - file: "content/finnish/clubrules.md" 
       name: "clubrules-fi"
