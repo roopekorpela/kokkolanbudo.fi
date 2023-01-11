@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://wwww.kokkolanbudo.fi"
+baseURL = "https://kokkolanbudo.fi"
 title = "Kokkolan Budo"
 theme = "bigspring-light"
 defaultContentLanguage = 'fi'
