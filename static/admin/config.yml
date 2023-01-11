@@ -78,7 +78,7 @@ collections:
                       { label: "Sininen", value: "#355cb0" },
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
-                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/" 4. Lopuksi nimeä tiedosto selkeästi näin **Roope Korpela.webp**"},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
                 {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
                 {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
               ]}
@@ -124,7 +124,7 @@ collections:
                       { label: "Sininen", value: "#355cb0" },
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
-                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/" 4. Lopuksi nimeä tiedosto selkeästi näin **Roope Korpela.webp**"},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: 1. **Rajaa kuva neliön muotoiseksi**, niin että kasvot ja vyö näkyy. 2. **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ 3. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 4. Lopuksi nimeä tiedosto selkeästi valmentajan nimellä: **Roope Korpela.webp**"},
                 {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
                 {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
               ]}
