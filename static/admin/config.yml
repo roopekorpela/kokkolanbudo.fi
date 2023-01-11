@@ -70,7 +70,7 @@ collections:
           fields: 
             - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
                 {label: "Valmentajan nimi", name: "name", widget: "string"},
-                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**"},
                 {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
                       { label: "Musta", value: "#222" },
                       { label: "Purppura", value: "#5E3E8D" },
