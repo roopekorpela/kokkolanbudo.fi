@@ -1,7 +1,7 @@
 ---
 title: Karatessa uusia dan-arvoja
 date: 2022-04-22T20:30:41+02:00
-image: "./../images/blog/karate-dan-graduoinnit-2022.jpg"
+image: "./../images/blog/karate-dan-graduoinnit-2022.webp"
 type: "regular"
 summary: "Kokkolassa 22.04.2022 pidetyssä vyökokeessa graduoitiin kolme karten vetäjää."
 draft: false

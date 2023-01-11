@@ -7,7 +7,7 @@ welcome:
      # service item loop
     - title : "Tervetuloa tatamille!"
       images:
-      - "../../images/karatekata.jpg"
+      - "../../images/karatekata.webp"
       - "../../images/bjjclass.webp"
       - "../../images/judogroup.webp"
       content : "Kokkolan Budo on kokkolassa toimiva, vuonna 1993 perustettu budolajeja edustava seura. Meillä on mahdollista harrastaa kolmea kamppailu- ja itsepuolustuslajia, jotka ovat bjj, judo sekä karate. Tervetuloa tutustumaan!"
@@ -30,7 +30,7 @@ lajit:
   enable: true
   bjj_image: "../../images/bjjtemp.webp"
   judo_image: "../../images/judotemp.webp"
-  karate_image: "../../images/karate2.jpg"
+  karate_image: "../../images/karate2.webp"
   bjjdesc: "BJJ eli Brasilian Jujutsu on tehokas ja haasteita tarjoava kamppailulaji. Lajin tehokkuus piilee sen realistisissa mattopainitekniikoissa: erityisesti erilaisissa lukoissa ja kuristuksissa."
   judodesc: "Judossa opit painiotteita, heittoja, lukkoja ja vastustajan kunnioittamista. Kokkolan Budossa joukkoon mahtuu harrastamaan sekä kunto- että kisajudoa. Judo sopii kaiken ikäisille."
   karatedesc: "Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Tyylisuuntamme Gijomon-kai on erityisesti itsepuolustukseen keskittynyttä karatea."

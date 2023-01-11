@@ -7,7 +7,7 @@ welcome:
      # service item loop
     - title : "Welcome!"
       images:
-      - "../../images/karatekata.jpg"
+      - "../../images/karatekata.webp"
       - "../../images/bjjclass.webp"
       - "../../images/judogroup.webp"
       content : "Kokkola Budo is a martial arts club located in Kokkola that was founded in 1993. We offer the opportunity to practice three types of martial arts/self-defense, which are bjj, judo and karate."
@@ -19,7 +19,7 @@ lajit:
   enable: true
   bjj_image: "../../images/bjjtemp.webp"
   judo_image: "../../images/judotemp.webp"
-  karate_image: "../../images/karate2.jpg"
+  karate_image: "../../images/karate2.webp"
   bjjdesc: "Brazilian Jiu-Jitsu is a martial art and combat sport based on ground fighting and submission holds. It focuses on the skill of taking an opponent to the ground, controlling one's opponent, gaining a dominant position, and using a number of techniques to force them into submission via joint locks or chokeholds."
   judodesc: "In Judo you will learn wrestling, throws, locks and respect for your opponent. In Kokkola Budo you can do judo for fitness and competition. Judo is suitable for all ages."
   karatedesc: "The techniques practiced in karate include various punches, kicks, fights, blocks and takedowns. Our karate style is Gijomon-kai which especially focuses on self-defense."

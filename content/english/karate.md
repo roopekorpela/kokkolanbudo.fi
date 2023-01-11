@@ -7,7 +7,7 @@ service:
   service_item:
     - title: Karate as a sport
       images:
-        - ../../images/karatekata.jpg
+        - ../../images/karatekata.webp
       content: |
         Karate is a traditional Japanese martial art that originated on the
         island of Okinawa. It is known for its focus on self-defense and its
@@ -16,7 +16,7 @@ service:
         Whether you are interested in learning self-defense or simply looking for a comprehensive form of exercise, karate has something to offer for everyone.
     - title: Gijomon-kai
       images:
-        - ../../images/karateyoi.jpg
+        - ../../images/karateyoi.webp
       content: |
         Our club also practices a specific style of karate called Gijomon-kai. 
 
