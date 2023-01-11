@@ -1,8 +1,6 @@
 ---
 title: "BJJ"
-subtitle: ""
-# meta description
-description: "This is meta description"
+description: "Information about BJJ"
 
 service:
   enable : true
@@ -11,22 +9,22 @@ service:
     - title : "BJJ as a sport"
       images:
       - "../../images/bjjchoke.jpg"
-      content : "
-      **Brazilian ju-jutsu or BJJ** is a martial and self-defense sport developed by brazilians Carlos and Hélio Gracie on the basis of traditional Japanese jujutsu and judo techniques. <br> <br>
+      content : |
+      **Brazilian ju-jutsu or BJJ** is a martial and self-defense sport developed by brazilians Carlos and Hélio Gracie on the basis of traditional Japanese jujutsu and judo techniques.
       
-       Brazilian jujutsu focuses on various martial arts techniques used in the country. In a typical match situation, the goal is to take the opponent to the ground as soon as possible, where the match will end with a lock or strangle. <br><br>"
+       Brazilian jujutsu focuses on various martial arts techniques used in the country. In a typical match situation, the goal is to take the opponent to the ground as soon as possible, where the match will end with a lock or strangle.
 
         
     # service item loop
     - title : "BJJ in Kokkola"
       images:
       - "../../images/bjjclass.webp"
-      content : "
+      content : |
       BJJ has been practiced in Kokkola since 2016. Despite its novelty, the sport has already attracted several dozen enthusiasts and its popularity is growing rapidly. Exercises are suitable for everyone - regardless of gender or physical fitness. The workouts are really about doing and the atmosphere is open and friendly.
 
-      Start the life's fitness remodel and book your place from the next basic course or come to our gym for a free tryout. <br> <br>
+      Start the life's fitness remodel and book your place from the next basic course or come to our gym for a free tryout.
 
-      The length of the basic course is about 2 months and its price is 100 €. The price includes the membership fee and the exercises after the basic course in the group that continues throughout the season. The training take place twice a week and a more detailed training schedule is always confirmed before the start of the next basic course.  <br><br>"      
+      The length of the basic course is about 2 months and its price is 100 €. The price includes the membership fee and the exercises after the basic course in the group that continues throughout the season. The training take place twice a week and a more detailed training schedule is always confirmed before the start of the next basic course.      
 
 timetable:
   enable : true
@@ -91,7 +89,7 @@ coaches:
 moreinfo:
   enable : true
   title : "Information for BJJ practitioners"
-  content : "
+  content : |
   Sports Federation: [Suomen Brasilialaisen Ju-Jutsun Liitto](https://bjjliitto.fi/)<br><br>
-  Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance."
+  Kokkola Budo uses [Suomisport](https://www.suomisport.fi), where practitioners can buy licenses and insurance.
 ---
