@@ -78,9 +78,9 @@ collections:
                       { label: "Sininen", value: "#355cb0" },
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
-                {label: "Valmentajan kuva", name: "image", widget: "image"},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ ja sen jälkeen muuta tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/" lopuksi anna kuvalle selkä valmentajan nimi esim. **Roope Korpela.webp**},
                 {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
-                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: (1-tason junioriohjaaja)"}
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: **(1-tason junioriohjaaja)**"}
               ]}
         - {label: "Karaten harrastajille", name: "moreinfo", widget: "object", fields: [
               {label: "Sisältö", name: "content", widget: "markdown"}
@@ -124,9 +124,9 @@ collections:
                       { label: "Sininen", value: "#355cb0" },
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
-                {label: "Valmentajan kuva", name: "image", widget: "image"},
+                {label: "Valmentajan kuva", name: "image", widget: "image", hint: "Ohje: **Poista kuvasta tausta** esim. tällä työkalulla: https://www.remove.bg/ ja sen jälkeen muuta tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/" lopuksi anna kuvalle selkä valmentajan nimi esim. **Roope Korpela.webp**},
                 {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
-                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: (1-tason junioriohjaaja)"}
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
               ]}
         - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
               {label: "Sisältö", name: "content", widget: "markdown"}
