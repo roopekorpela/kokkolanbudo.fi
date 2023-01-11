@@ -50,14 +50,14 @@ collections:
           fields:
             - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
               [
-                {label: "Harjoituksen nimi", name: "name", widget: "string", help: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
-                {label: "1. harjoitusaika", name: "time1", widget: "string", help: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
-                {label: "1. harjoituspaikka", name: "time1location",  "select", options: 
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
                 [
                   "(Martial Arts Center, pieni puoli)",
                   "(Martial Arts Center, iso puoli)"
                 ]},
-                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, help: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
                 {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
                 [
                   "(Martial Arts Center, pieni puoli)",
@@ -97,7 +97,7 @@ collections:
             - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
               [
                 {label: "Harjoituksen nimi", name: "name", widget: "string"},
-                {label: "1. harjoitusaika", name: "time1", widget: "string"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string",  comment: 'This is a multiline\ncomment'},
                 {label: "1. harjoituspaikka", name: "time1location", widget: "string"},
                 {label: "2. harjoitusaika", name: "time2", widget: "string", required: false},
                 {label: "2. harjoituspaikka", name: "time2location", widget: "string", required: false}
