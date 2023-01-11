@@ -1,12 +1,12 @@
 ---
-title: Karate
-description: Tietoa karatesta
+title: "Karate"
+description: "Tällä sivulla on tietoa karatesta."
 service:
   enable: true
   service_item:
     - title: Karate lajina
       images:
-        - ../../images/karatekata.jpg
+        - ../../images/karatekata.webp
       content: >
         Alkunsa aseettomana taistelulajina Okinawan saarella (Japani) saanut
 
@@ -20,7 +20,7 @@ service:
         Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Lajissa on kamppailun lisäksi tärkeässä roolissa sekä fyysisen että henkisen kunnon kehittäminen, mikä tekee karatesta todella kokonaisvaltaisen liikuntamuodon.
     - title: Gijomon-kai
       images:
-        - ../../images/karateyoi.jpg
+        - ../../images/karateyoi.webp
       content: >
         Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea,
         jossa kunto kohoaa.
