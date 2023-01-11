@@ -21,7 +21,7 @@ service:
 
         Practitioners can take part in both fitness and competitive judo. Ground fighting is especially valued within our club.
 
-        ** Inquiries: **
+        **Inquiries:**
         Jukka Aalto: 050 351 0976
         Timo Sivula: 045 624 5150
         

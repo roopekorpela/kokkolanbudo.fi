@@ -20,6 +20,7 @@ service:
         Kokkolassa Judoa on harrastettu kahdeksankymmentäluvun alusta. Aluksi toimittiin Kokkolan Veikkojen puitteissa. Vuodesta 1993 alkaen on toimittu Kokkolan Budon Judojaostona. Judokoita seurassa on noin 30, joista aktiivisesti kilpailevia 5-10 judokaa. Menestystä on tullut aluemestaruuskisoista.
 
         Kokkolan Budossa joukkoon mahtuu harrastamaan sekä kunto- että kisajudoa. Mattojudoa seurassamme arvostetaan erityisesti.
+        
         **Tiedustelut:**
         Jukka Aalto: 050 351 0976
         Timo Sivula: 045 624 5150
