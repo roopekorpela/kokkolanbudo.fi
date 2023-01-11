@@ -50,7 +50,7 @@ collections:
           fields:
             - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
               [
-                {label: "Harjoituksen nimi", name: "name", widget: "string", help: "Esim. "Karaten ylemmät vyöt" tai "Karaten peruskussi""},
+                {label: "Harjoituksen nimi", name: "name", widget: "string", help: "Esim. **Karaten ylemmät vyöt** tai **Karaten peruskussi**"},
                 {label: "1. harjoitusaika", name: "time1", widget: "string", help: "Kirjoita muodossa: **Maanantai klo 17:00-18:00**"},
                 {label: "1. harjoituspaikka", name: "time1location",  "select", options: 
                 [
