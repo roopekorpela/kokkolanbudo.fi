@@ -49,11 +49,11 @@ collections:
           widget: "object"
           fields:
             - {label: "Tekstipalsta", name: "service_item", widget: "list", fields: 
-            [
-              { label: "Otsikko", name: "title", widget: "string" },
-              { label: "Kuva", name: "image", widget: "image", , hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-              { label: "Sisältö", name: "content", widget: "markdown" }
-            ]}
+              [
+                { label: "Otsikko", name: "title", widget: "string" },
+                { label: "Kuva", name: "image", widget: "image", , hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+                { label: "Sisältö", name: "content", widget: "markdown" }
+              ]}
 
         - label: "Harjoitusajat"
           name: "timetable"
@@ -75,6 +75,7 @@ collections:
                   "(Martial Arts Center, iso puoli)"
                 ]}
               ]}
+
         - label: "Valmentajat"
           name: "coaches"
           widget: "object"
@@ -101,20 +102,20 @@ collections:
       name: "karate-en"    
       label: "Karate (English)"
       fields:
+        - label: "Lajin esittely tekstit (English)"
+          name: "service"
+          widget: "object"
+          fields:
+            - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: [
+              { label: "Otsikko", name: "title", widget: "string" },
+              { label: "Kuva", name: "image", widget: "image", , hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
+              { label: "Sisältö", name: "content", widget: "markdown" }
+              ]}
+
         - label: "Harjoitusajat (English)"
           name: "timetable"
           widget: "object"
           fields:
-            - label: "Lajin esittely tekstit (English)"
-              name: "service"
-              widget: "object"
-              fields:
-                - {label: "Tekstipalsta (English)", name: "service_item", widget: "list", fields: 
-                [
-                  { label: "Otsikko", name: "title", widget: "string" },
-                  { label: "Kuva", name: "image", widget: "image", , hint: "Ohje: 1. Muuta kuva tiedostomuotoon **.webp** esim. sivulla: https://webpconverter.org/ 2. Lopuksi nimeä tiedosto selkeästi: **Kokkolan Budo BJJ kuva1.webp**"},
-                  { label: "Sisältö", name: "content", widget: "markdown" }
-                ]}
             - {label: "Harjoitusaika (English)", name: "timetable_item", widget: "list", fields: 
               [
                 {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
@@ -131,6 +132,7 @@ collections:
                   "(Martial Arts Center, bigger side)"
                 ]}
               ]}
+              
         - label: "Valmentajat (English)"
           name: "coaches"
           widget: "object"
@@ -149,6 +151,7 @@ collections:
                 {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
                 {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: **(1-tason junioriohjaaja)**"}
               ]}
+              
         - {label: "Information for practitioners", name: "moreinfo", widget: "object", fields: [
               {label: "Sisältö", name: "content", widget: "markdown"}
             ]}  
