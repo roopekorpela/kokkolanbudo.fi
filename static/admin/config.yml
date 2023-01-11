@@ -4,6 +4,55 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "static/images" # Media files will be stored in the repo under static/images
 public_folder: "images"
+dentity: true
+
+publish_mode: editorial_workflow
+
+roles:
+  - name: Admin
+    label: Admin
+    permissions:
+    - "*"
+  - name: KarateEditor
+    label: KarateEditor
+    permissions:
+    - collection: "karate"
+      create: true
+      read: true
+      update: true
+      delete: true
+      publish: true
+    - collection: "judo"
+      read: true
+    - collection: "bjj"
+      read: true
+  - name: BJJEditor
+    label: BJJEditor
+    permissions:
+    - collection: "bjj"
+      create: true
+      read: true
+      update: true
+      delete: true
+      publish: true
+    - collection: "judo"
+      read: true
+    - collection: "karate"
+      read: true
+ - name: JudoEditor
+    label: JudoEditor
+    permissions:
+    - collection: "judo"
+      create: true
+      read: true
+      update: true
+      delete: true
+      publish: true
+    - collection: "karate"
+      read: true
+    - collection: "bjj"
+      read: true
+
 
 collections:
 - name: "uutiset" # Used in routes, e.g., /admin/collections/blog
@@ -30,8 +79,8 @@ collections:
     - {label: "Summary", name: "summary", widget: "markdown"}
     - {label: "Body", name: "body", widget: "markdown"}
 
-- name: "pages" 
-  label: "Pages"
+- name: "karate" 
+  label: "Karate"
   files:
     - file: "content/finnish/clubrules.md" 
       name: "clubrules-fi"
