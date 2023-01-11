@@ -1,5 +1,0 @@
-[[headers]]
-  for = "/.*"
-  [headers.values]
-    Access-Control-Allow-Origin = "https://www.kokkolanbudo.fi/.netlify/identity"
-    Access-Control-Allow-Methods = "GET,HEAD,PUT,PATCH,POST,DELETE"
