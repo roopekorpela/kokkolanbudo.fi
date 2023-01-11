@@ -70,7 +70,7 @@ collections:
           fields: 
             - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
                 {label: "Valmentajan nimi", name: "name", widget: "string"},
-                {label: "Vyön nimi", name: "belt", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "Esim: **1. dan musta vyö**},
                 {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
                       { label: "Musta", value: "#222" },
                       { label: "Purppura", value: "#5E3E8D" },
@@ -79,37 +79,44 @@ collections:
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
                 {label: "Valmentajan kuva", name: "image", widget: "image"},
-                {label: "Valmentajan rooli", name: "description", widget: "string"},
-                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false}
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "Esim: **Ylempien vöiden valmentaja** tai **Peruskurssin valmentaja**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "Esim: (1-tason junioriohjaaja)"}
               ]}
         - {label: "Karaten harrastajille", name: "moreinfo", widget: "object", fields: [
               {label: "Sisältö", name: "content", widget: "markdown"}
             ]}
-
+    
     - file: "content/english/karate.md" 
       name: "karate-en"    
       label: "Karate (English)"
       fields:
-        - label: "Harjoitusajat"
+        - label: "Training times"
           name: "timetable"
           widget: "object"
-          comment: 'This is a multiline\ncomment'
           fields:
             - {label: "Harjoitusaika", name: "timetable_item", widget: "list", fields: 
               [
-                {label: "Harjoituksen nimi", name: "name", widget: "string"},
-                {label: "1. harjoitusaika", name: "time1", widget: "string"},
-                {label: "1. harjoituspaikka", name: "time1location", widget: "string"},
-                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false},
-                {label: "2. harjoituspaikka", name: "time2location", widget: "string", required: false}
+                {label: "Harjoituksen nimi", name: "name", widget: "string", hint: "For examle:. **Karate coloured belts** tai **Karaten basic course**"},
+                {label: "1. harjoitusaika", name: "time1", widget: "string", hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "1. harjoituspaikka", name: "time1location", widget: "select", options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]},
+                {label: "2. harjoitusaika", name: "time2", widget: "string", required: false, hint: "Write in the form: **Monday 17:00-18:00**"},
+                {label: "2. harjoituspaikka", name: "time2location", widget: "select", required: false, options: 
+                [
+                  "(Martial Arts Center, smaller side)",
+                  "(Martial Arts Center, bigger side)"
+                ]}
               ]}
-        - label: "Valmentajat"
+        - label: "Coaches"
           name: "coaches"
           widget: "object"
           fields: 
             - {label: "Valmentaja", name: "coach_item", widget: "list", fields: [
                 {label: "Valmentajan nimi", name: "name", widget: "string"},
-                {label: "Vyön nimi", name: "belt", widget: "string"},
+                {label: "Vyön nimi", name: "belt", widget: "string", hint: "For example: **1. dan black belt**"},
                 {label: "Vyön väri", name: "beltcolor", widget: "select", options: [
                       { label: "Musta", value: "#222" },
                       { label: "Purppura", value: "#5E3E8D" },
@@ -118,10 +125,10 @@ collections:
                       { label: "Ei tiedossa", value: "#DEDED9" }
                 ]},
                 {label: "Valmentajan kuva", name: "image", widget: "image"},
-                {label: "Valmentajan rooli", name: "description", widget: "string"},
-                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false}
+                {label: "Valmentajan rooli", name: "description", widget: "string", hint: "For example: **Basic course coach** or **Colored belts coach**"},
+                {label: "Valmentajan ohjaajakoulutus", name: "description2", widget: "string", required: false, hint: "For example: (1-tason junioriohjaaja)"}
               ]}
-        - {label: "Karaten harrastajille", name: "moreinfo", widget: "object", fields: [
+        - {label: "Information for practitioners, name: "moreinfo", widget: "object", fields: [
               {label: "Sisältö", name: "content", widget: "markdown"}
-            ]}
+            ]}  
 
