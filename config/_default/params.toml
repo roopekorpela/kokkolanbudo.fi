@@ -1,90 +1,48 @@
-#################### default parameters ################################
+############################# default parameters ################################
 logo = "images/kokkolanbudo.webp"
 logo_width = "175px"
 logo2 = "images/kokkolanbudologowhite.webp"
 description = "Kokkolan Budo ry - Kokkolalainen budo seura, joka tarjoaa mahdollisuuden harrastaa karatea, judoa sekä brasilialaista jujutsua."
 author = "Roope Korpela"
 image = "images/kokkolanbudo.webp" # this image will be used as fallback if a page has no image of its own
-# contact form action
-contact_bjj_action = "https://forms.un-static.com/forms/11e372eaba323a68693a3b6d654b22c81319e974" # contact form works with https://forms.un-static.com
+
+contact_bjj_action = "https://forms.un-static.com/forms/11e372eaba323a68693a3b6d654b22c81319e974" 
 contact_judo_action = "https://forms.un-static.com/forms/710c018bafabc4b3d30ede2f24489f3dfb3e2c98" # contact form works with https://forms.un-static.com
 contact_karate_action = "https://forms.un-static.com/forms/e6c73cd79cb7a0c95435e67f5777d2c39bd5ea1f" # contact form works with https://forms.un-static.com
 
-# Type of pages to be rendered with a blog view
-blogCategoryType = "category"
+blogCategoryType = "category"   # Type of pages to be rendered with a blog view
+light = "#f4f5ef"               # Background color slight green
 
-# Preloader
 [preloader]
 enable = false
-preloader = "" # use jpg, png, svg or gif format.
+preloader = ""                  # use jpg, png, svg or gif format.
 
-# Navigation buttons
 [navigation_button]
-enable = false
-label = "Ilmoittaudu jäseneksi"
-link = ""
+enable = true
+label = "Liity joukkoon!"
+link = "getstarted"
 
-# cookies
 [cookies]
 enable = false
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
-  
-############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+[startDates]
+bjjCourseStartDate = ""
+bjjCourseImage = "../../images/bjjclass.webp"
+bjjCourseRegisterLink = ""
+bjjCourseDescription = "Uusi BJJ peruskurssi alkaa syksyllä."
+bjjCourseDescriptionEnglish = "A new BJJ basic course begins in the fall"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+judoCourseStartDate = ""
+judoCourseImage = "../../images/judothrow2.webp"
+judoCourseRegisterLink = ""
+judoCourseDescription = "Uusi Judo peruskurssi alkaa syksyllä."
+judoCourseDescriptionEnglish = "A new Judo basic course begins in the fall"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialbjj]]
-title = "BJJ instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialbjj]]
-title = "BJJ instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialjudo]]
-title = "Judo instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialjudo]]
-title = "Judo instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialkarate]]
-title = "Karate instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[socialkarate]]
-title = "Karate instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-light = "#f4f5ef"
+karateCourseStartDate = "16.08.2023"
+karateCourseImage = "../../images/karate2.webp"
+karateCourseRegisterLink = "https://www.suomisport.fi/events/fd66107a-9e6c-4f62-8a9b-baaf3c274712"
+karateCourseDescription = "Uusi karaten peruskurssi alkaa syksyllä 16.08.2023 klo 17:00. Ikäraja 10v. Junioreiden vanhemmat ovat myös tervetulleita osallistumaan peruskursille. Paikkoja rajoitetusti, varaa paikkasi alla olevasta linkistä. 👊🏼"
+karateCourseDescriptionEnglish = "A new karate basic course begins in the fall on August 16th, 2023 at 5:00 PM. Age limit 10 years old. Parents of juniors are also welcome to participate in the basic course. Limited spots available, reserve your spot through the link below. 👊🏼"

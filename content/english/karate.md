@@ -16,7 +16,7 @@ service:
         Whether you are interested in learning self-defense or simply looking for a comprehensive form of exercise, karate has something to offer for everyone.
     - title: Gijomon-kai
       images:
-        - ../../images/karateyoi.webp
+        - ../../images/karaterow.webp
       content: |
         Our club also practices a specific style of karate called Gijomon-kai. 
 

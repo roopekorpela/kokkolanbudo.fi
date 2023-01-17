@@ -20,7 +20,7 @@ service:
         Karatessa harjoiteltaviin tekniikoihin lukeutuvat mm. erilaiset lyönnit, potkut, torjunnat, hallintaotteet ja kaadot. Lajissa on kamppailun lisäksi tärkeässä roolissa sekä fyysisen että henkisen kunnon kehittäminen, mikä tekee karatesta todella kokonaisvaltaisen liikuntamuodon.
     - title: Gijomon-kai
       images:
-        - ../../images/karateyoi.webp
+        - ../../images/karaterow.webp
       content: >
         Tyylisuuntamme Gijomon-kai on itsepuolustukseen keskittynyttä karatea,
         jossa kunto kohoaa.

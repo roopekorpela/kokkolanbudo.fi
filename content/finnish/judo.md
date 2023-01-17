@@ -94,17 +94,17 @@ coaches:
       image: "../../images/coaches/Missing Picture.webp"
       description: "Junnujudon valmentaja"    
 
-    - name: "Tomi Laaksonen"
-      belt: "?. kyu ? vyö"
-      beltcolor: "#DEDED9"
-      image: "../../images/coaches/Missing Picture.webp"
-      description: "Junnujudon valmentaja"  
-
     - name: "Jemina Salonen"
       belt: "2. kyu sininen vyö"
       beltcolor: "#355cb0"
       image: "../../images/coaches/Missing Picture.webp"
       description: "Junnujudon apuvalmentaja"  
+
+#    - name: "Tomi Laaksonen"
+#      belt: "?. kyu ? vyö"
+#      beltcolor: "#DEDED9"
+#      image: "../../images/coaches/Missing Picture.webp"
+#      description: "Junnujudon valmentaja"  
       
 moreinfo:
   enable: true

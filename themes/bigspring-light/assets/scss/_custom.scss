@@ -4,26 +4,18 @@
 .is-active {
   /* Change the text color and add an underline */
   animation-duration: 1s;
-  animation-name: animate-fade, animate-text-color;
+  animation-name: animate-text-color;
   animation-fill-mode: backwards;
-  background-color: #d65356;
-  color: #adbfa2; 
   border-radius: 30px;
-}
-
-@keyframes animate-fade {
-    0% { background-color: #ffffff; }
-    100% { background-color: #d65356; }
 }
 
 .nav-link-is-active{
     animation-duration: 1s;
     animation-name: animate-text-color;
     animation-fill-mode: forwards;
-    color: #ffffff; 
 }
 
 @keyframes animate-text-color {
     0% { color: initial; }
-    100% { color: #ffffff; }
+    100% { color: $primary-color }
 }

@@ -1,19 +1,151 @@
 {{ define "main" }}
 {{ partial "page-header.html" . }}
 
-{{ "<!-- faq -->" | safeHTML }}
+
+<!-- service -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      {{ .Content }}
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">{{ i18n `bjjbasiccourse` }}</h2>
+        {{ if .Site.Params.startDates.bjjCourseRegisterLink }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>{{ site.Params.startDates.bjjCourseDescriptionEnglish  }}</p>
+          {{ else }}
+            <p>{{ site.Params.startDates.bjjCourseDescription  }}</p>
+          {{ end }}
+          <a href={{site.Params.startDates.bjjCourseRegisterLink}}   title="{{ i18n `registerbjjbasiccourse` }}" class="btn-link">{{ i18n `registerbjjbasiccourse` }} <i class="fas fa-arrow-right"></i></a>
+        {{ else }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>The start date of the next BJJ basic course has not been announced yet.</p>
+            <p>You can contact us through the link below and inquire about starting BJJ hobby. 🤗</p>
+          {{ else }}
+          <p>Seuraavan karaten peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
+          <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella BJJ harrastuksen aloittamisesta. 🤗</p>
+          {{end}}
+      
+          <a href="#contactform"  title="{{ i18n `asktojoin` }}" class="btn-link" class="btn-link" onclick="document.getElementById('bjj').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
+        {{ end }}
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img src={{site.Params.startDates.bjjCourseImage}} alt="" class="img-fluid">
+      </div>
     </div>
   </div>
 </section>
-{{ "<!-- /faq -->" | safeHTML }}
+
+<section class="bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div>
+          <img src={{site.Params.startDates.judoCourseImage}} alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">{{ i18n `judobasiccourse` }}</h2>
+        {{ if .Site.Params.startDates.judoCourseRegisterLink }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>{{ site.Params.startDates.judoCourseDescriptionEnglish  }}</p>
+          {{ else }}
+            <p>{{ site.Params.startDates.judoCourseDescription  }}</p>
+          {{ end }}
+          <a href={{site.Params.startDates.judoCourseRegisterLink}} title="{{ i18n `registerjudobasiccourse` }}">{{ i18n `registerjudobasiccourse` }} <i class="fas fa-arrow-right"></i></a>
+        {{ else }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>The start date of the next judo basic course has not been announced yet.</p>
+            <p>You can contact us through the link below and inquire about starting Judo hobby. ☺️</p>
+          {{ else }}
+          <p>Seuraavan karaten peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
+          <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella judo harrastuksen aloittamisesta. ☺️</p>
+          {{end}}
+      
+          <a href="#contactform"  title="{{ i18n `asktojoin` }}"  class="btn-link" onclick="document.getElementById('judo').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">{{ i18n `karatebasiccourse` }}</h2>
+        {{ if .Site.Params.startDates.karateCourseRegisterLink }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>{{ site.Params.startDates.karateCourseDescriptionEnglish  }}</p>
+          {{ else }}
+            <p>{{ site.Params.startDates.karateCourseDescription  }}</p>
+          {{ end }}
+          <a href={{site.Params.startDates.karateCourseRegisterLink}}  title="{{ i18n `registerkaraterbasiccourse` }}" class="btn-link">{{ i18n `registerkaratebasiccourse` }} <i class="fas fa-arrow-right"></i></a>
+        {{ else }}
+          {{ if eq .Language.LanguageName "English" }}
+            <p>The start date of the next karate basic course has not been announced yet.</p>
+            <p>You can contact us through the link below and inquire about starting Judo hobby. 🙂</p>
+          {{ else }}
+            <p>Seuraavan karaten peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
+            <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella karate harrastuksen aloittamisesta. 🙂</p>
+          {{end}}
+      
+          <a href="#contactform"  title="{{ i18n `asktojoin` }}" class="btn-link" onclick="document.getElementById('karate').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
+        {{ end }}
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img src={{site.Params.startDates.karateCourseImage}} alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- service -->
 
 
-<!-- call to action -->
 
-<!-- /call to action -->
+<!-- faq -->
+<section class="bg-light">
+  <div class="container">
+    <div class="col-12 text-center mt-3">
+      <h2 class="section-title">{{ .Params.faqtitle | markdownify }}</h2>
+    </div>
+    <div id="card"></div>
+      <div class="row">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- faq -->
+
+
+{{ with .Params.contactform }}
+{{ if .enable }}
+<section>
+  <div class="container ">
+    <div class="row mx-4">
+      <div class="col-12 text-center mt-3">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+      <div class="col-12 mb-3">
+        <form id = "contactform" action="{{ site.Params.contact_bjj_action | safeURL }}" method="POST"> <!-- action="{{ site.Params.contact_form_action | safeURL }}" -->
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ i18n `yourname` }}">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{ i18n `youremail` }}">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="{{ i18n `yourmessage` }}"></textarea>
+          <label><b>{{ .martialartselectiontitle }}</b></label><br>
+          <input type="radio" id="bjj" name="fav_language" value="BJJ" onclick="document.getElementById('contactform').action='{{ site.Params.contact_bjj_action | safeURL }}';" checked="checked">
+          <label for="bjj">BJJ</label>&emsp;
+          <input type="radio" id="judo" name="fav_language" value="Judo" onclick="document.getElementById('contactform').action='{{ site.Params.contact_judo_action | safeURL }}';">
+          <label for="judo">Judo</label>&emsp;
+          <input type="radio" id="karate" name="fav_language" value="Karate" onclick="document.getElementById('contactform').action='{{ site.Params.contact_karate_action | safeURL }}';">
+          <label for="karate">Karate</label><br>
+          <label>{{ .recaptchainfo }}</label><br>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button> <br>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
 
 {{ end }}

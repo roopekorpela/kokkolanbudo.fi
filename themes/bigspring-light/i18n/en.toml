@@ -21,3 +21,25 @@ other = "Your message"
 
 [sendnow]
 other = "Send now"
+
+[getstartedbutton]
+other = "Get Started!"
+
+[bjjbasiccourse]
+other = "BJJ Basic Course"
+
+[judobasiccourse]
+other = "Judo Basic Course"
+
+[karatebasiccourse]
+other = "Karate Basic Course"
+
+[registerbjjbasiccourse]
+other = "Register for the BJJ basic course at Suomisport"
+[registerjudobasiccourse]
+other = "Register for the Judo basic course at Suomisport"
+[registerkaratebasiccourse]
+other = "Register for the Karate basic course at Suomisport"
+
+[asktojoin]
+other = "Ask about starting the hobby"

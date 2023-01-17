@@ -24,9 +24,9 @@ Kokkola Budo is a joint sports club of three martial arts. Kokkolan Budo was fou
 
 **Chairman:** Antti Pitkänen (Judo) &#9742; 050 3054 361
 
-**Secretary:** Joakim Honga (BJJ)
+**Secretary:** Joakim Honga (BJJ)  
 **Treasurer:** Meira Ylitalo (BJJ)
 
-**Board member:** Tomi Niemi (Karate)
-**Board membern:** Roope Korpela (Karate)
+**Board member:** Tomi Niemi (Karate)  
+**Board membern:** Roope Korpela (Karate)  
 **Board member:** Toni Salmela (BJJ)

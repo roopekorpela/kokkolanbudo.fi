@@ -92,17 +92,17 @@ coaches:
       image: "../../images/coaches/Missing Picture.webp"
       description: "Junior judo coach"    
 
-    - name: "Tomi Laaksonen"
-      belt: "?. kyu ? belt"
-      beltcolor: "#DEDED9"
-      image: "../../images/coaches/Missing Picture.webp"
-      description: "Junior judo coach<br>"  
-
     - name: "Jemina Salonen"
       belt: "2. kyū blue belt"
       beltcolor: "#355cb0"
       image: "../../images/coaches/Missing Picture.webp"
-      description: "Junior judo coach"       
+      description: "Junior judo coach"     
+        
+#    - name: "Tomi Laaksonen"
+#      belt: "?. kyu ? belt"
+#      beltcolor: "#DEDED9"
+#      image: "../../images/coaches/Missing Picture.webp"
+#      description: "Junior judo coach<br>"  
 
 moreinfo:
   enable: true

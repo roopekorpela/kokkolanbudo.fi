@@ -1,0 +1,35 @@
+{{ if eq .Site.Language.LanguageName "English" }}
+  {{ if .Site.Params.startDates.karateCourseStartDate }}
+    <p><b>Karate basic course</b> will begin in the <b>{{ .Site.Params.startDates.karateCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p>The start date of the next <b>karate basic course</b> has not been announced yet.  </p>
+  {{ end }}
+
+  {{ if .Site.Params.startDates.judoCourseStartDate }}
+    <p>The next <b>judo basic course</b> will begin in the <b>{{ .Site.Params.startDates.judoCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p><b>Judo basic course</b> start date has not been announced yet. </p>
+  {{ end }}
+
+  {{ if .Site.Params.startDates.bjjCourseStartDate }}
+    <p>The next <b>BJJ basic course</b> will begin in the <b>{{ .Site.Params.startDates.bjjCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p><b>BJJ basic course</b> start date has not been announced yet. </p>
+  {{ end }}
+{{ else }}
+  {{ if .Site.Params.startDates.karateCourseStartDate }}
+    <p>Seuraava <b>Karaten peruskurssi</b> alkaa <b>{{ .Site.Params.startDates.karateCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p>Seuraavan <b>Karaten peruskurssin</b> aloituspäivää ei ole vielä ilmoitettu.</p>
+  {{ end }}
+
+  {{ if .Site.Params.startDates.judoCourseStartDate }}
+    <p>Seuraava <b>judon peruskurssi</b> alkaa <b>{{ .Site.Params.startDates.judoCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p>Seuraavan <b>Judon peruskurssin</b> aloituspäivää ei ole vielä ilmoitettu.</p>  {{ end }}
+  {{ if .Site.Params.startDates.bjjCourseStartDate }}
+    <p>Seuraava <b>BJJ peruskurssi</b> alkaa <b>{{ .Site.Params.startDates.bjjCourseStartDate }}</b>. </p>
+  {{ else }}
+    <p>Seuraavan <b>BJJ peruskurssin</b> aloituspäivää ei ole vielä ilmoitettu.</p>
+  {{ end }}
+{{ end }}

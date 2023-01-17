@@ -96,13 +96,22 @@ h6,
     padding: 12px 30px;
     font-size: 15px; }
 
+#btnSecondary {
+  background-color: #818181;
+  color: #fff;
+  border-color: #aeaeae; }
+  #btnSecondary:active, #btnSecondary:hover, #btnSecondary.focus, #btnSecondary.active {
+    background-color: #555555;
+    border-color: #555555;
+    color: #fff; }
+
 .btn-primary {
   background-color: #d65356;
   /*color: $white;*/
   border-color: #d65356; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-    background-color: #adbfa2  !important;
-    border-color: #adbfa2  !important; }
+    background-color: #b03c3c !important;
+    border-color: #b03c3c !important; }
 
 .btn-outline-primary {
   background-color: transparent;
@@ -581,26 +590,17 @@ a.post-title {
 .is-active {
   /* Change the text color and add an underline */
   animation-duration: 1s;
-  animation-name: animate-fade, animate-text-color;
+  animation-name: animate-text-color;
   animation-fill-mode: backwards;
-  background-color: #d65356;
-  color: #adbfa2;
   border-radius: 30px; }
-
-@keyframes animate-fade {
-  0% {
-    background-color: #ffffff; }
-  100% {
-    background-color: #d65356; } }
 
 .nav-link-is-active {
   animation-duration: 1s;
   animation-name: animate-text-color;
-  animation-fill-mode: forwards;
-  color: #ffffff; }
+  animation-fill-mode: forwards; }
 
 @keyframes animate-text-color {
   0% {
     color: initial; }
   100% {
-    color: #ffffff; } }
+    color: #d65356; } }

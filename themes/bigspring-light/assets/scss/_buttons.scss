@@ -45,6 +45,21 @@
   }
 }
 
+#btnSecondary {
+  background-color: #818181   ;
+  color: $white;
+  border-color: #aeaeae   ;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: #555555 ;
+    border-color: #555555 ;
+    color: $white;
+  }
+}
+
 .btn-primary {
   background-color: $primary-color;
   /*color: $white;*/
@@ -54,8 +69,8 @@
   &:hover,
   &.focus,
   &.active {
-    background-color: #adbfa2  !important;
-    border-color: #adbfa2  !important;
+    background-color: #b03c3c !important;
+    border-color: #b03c3c !important;
   }
 }
 

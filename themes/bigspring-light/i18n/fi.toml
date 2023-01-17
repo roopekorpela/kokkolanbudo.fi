@@ -21,3 +21,25 @@ other = "Kirjoita viestsi..."
 
 [sendnow]
 other = "Lähetä viesti"
+
+[getstartedbutton]
+other = "Liity joukkoon!"
+
+[bjjbasiccourse]
+other = "BJJ Peruskurssi"
+
+[judobasiccourse]
+other = "Judon Peruskurssi"
+
+[karatebasiccourse]
+other = "Karaten Peruskurssi"
+
+[registerbjjbasiccourse]
+other = "Ilmoittaudu BJJ peruskurssille Suomisportissa"
+[registerjudobasiccourse]
+other = "Ilmoittaudu Judon peruskurssille Suomisportissa"
+[registerkaratebasiccourse]
+other = "Ilmoittaudu Karaten peruskurssille Suomisportissa"
+
+[asktojoin]
+other = "Kysy harrastuksen aloittamisesta"

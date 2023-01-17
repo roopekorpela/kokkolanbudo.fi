@@ -20,14 +20,9 @@ url = "karate"
 weight = 4
 
 [[main]]
-name = "Usein kysyttyä"
-url = "faq"
-weight = 5
-
-[[main]]
 name = "Yhteystiedot"
 url = "contact"
-weight = 6
+weight = 5
 
 # footer menu left
 [[footer_left]]
@@ -78,8 +73,8 @@ url = "https://www.suomisport.fi/?locale=fi_FI"
 weight = 3
 
 [[footer_farright]]
-name = "❓Usein kysyttyä"
-url = "faq"
+name = "👊🏼Liity joukkoon"
+url = "getstarted"
 weight = 1
 
 # footer menu far right

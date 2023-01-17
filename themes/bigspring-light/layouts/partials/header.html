@@ -75,7 +75,7 @@
 
         {{ if site.Params.navigation_button.enable }}
         {{ with site.Params.navigation_button }}
-        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-primary ml-3">{{ .label }}</a>
+        <a href="{{ .link | relLangURL }}" title="{{ i18n `getstartedbutton` }}" class="btn btn-sm btn-primary ml-3">{{ i18n `getstartedbutton` }}</a>
         {{ end }}
         {{ end }}
       </div>
