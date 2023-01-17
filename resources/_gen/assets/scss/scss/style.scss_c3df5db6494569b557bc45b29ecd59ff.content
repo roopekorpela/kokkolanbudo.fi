@@ -604,3 +604,26 @@ a.post-title {
     color: initial; }
   100% {
     color: #d65356; } }
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  text-align: center; }
+
+.is-active::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 100px;
+  background-color: #d65356;
+  left: 50%;
+  bottom: 3px;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  animation: appear 0.2s linear; }
+
+@keyframes appear {
+  from {
+    transform: translateX(-50%) scaleX(0); }
+  to {
+    transform: translateX(-50%) scaleX(1); } }
