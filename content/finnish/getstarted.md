@@ -21,8 +21,12 @@ contactform:
 
 ---
 
-{{< faq "What are the training fees? " >}}
-The training fee is 100 €/season. We have seasonal payments in place, which consist of the fall and spring seasons. The fall season begins in mid-August and ends at the turn of the year. The spring season begins in January and ends for youth and juniors at the end of May. There are workouts for adults throughout the summer.
+{{< faq "Mitä harjoittelu maksaa? " >}}
+Kausimaksu on 100 euroa lajista riippumatta. Meillä on kaksi kautta: syksy ja kevät.
+
+- Syyskausi alkaa elokuussa ja päättyy joulukuussa.
+- Kevätkausi alkaa tammikuussa ja päättyy toukokuussa.
+- Kesätauon aikana järjestetään yleensä harjoituksia, tarkempaa tietoa kesän treeneistä kertoo kunkin lajin valmentajat.
 {{</ faq >}}
 
 {{< faq "Milloin seuraavat peruskurssit alkavat?" >}}
