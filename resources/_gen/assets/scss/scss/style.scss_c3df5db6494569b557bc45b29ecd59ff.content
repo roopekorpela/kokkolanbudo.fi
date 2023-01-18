@@ -592,7 +592,10 @@ a.post-title {
   animation-duration: 1s;
   animation-name: animate-text-color;
   animation-fill-mode: backwards;
-  border-radius: 30px; }
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  text-align: center; }
 
 .nav-link-is-active {
   animation-duration: 1s;
@@ -604,11 +607,6 @@ a.post-title {
     color: initial; }
   100% {
     color: #d65356; } }
-
-ul li {
-  cursor: pointer;
-  position: relative;
-  text-align: center; }
 
 .is-active::after {
   position: absolute;
