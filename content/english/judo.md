@@ -86,17 +86,17 @@ coaches:
       image: "../../images/coaches/Missing Picture.webp"
       description: "Basic course and colored belts coach"
 
-    - name: "Mira Ojala"
-      belt: "2. kyū blue belt"
-      beltcolor: "#355cb0"
-      image: "../../images/coaches/Missing Picture.webp"
-      description: "Junior judo coach"    
-
     - name: "Jemina Salonen"
       belt: "2. kyū blue belt"
       beltcolor: "#355cb0"
-      image: "../../images/coaches/Missing Picture.webp"
+      image: "../../images/coaches/Jemina Salonen.png"
       description: "Junior judo coach"     
+
+    - name: "Mira Ojala"
+      belt: "5. kyū yellow belt"
+      beltcolor: "#355cb0"
+      image: "../../images/coaches/Missing Picture.webp"
+      description: "Junior judo coach"    
         
 #    - name: "Tomi Laaksonen"
 #      belt: "?. kyu ? belt"
