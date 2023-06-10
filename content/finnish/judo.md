@@ -88,17 +88,17 @@ coaches:
       image: "../../images/coaches/Missing Picture.webp"
       description: "Peruskurssin ja ylempien vöiden valmentaja"
 
-    - name: "Mira Ojala"
-      belt: "2. kyu sininen vyö"
-      beltcolor: "#355cb0"
-      image: "../../images/coaches/Missing Picture.webp"
-      description: "Junnujudon valmentaja"    
-
     - name: "Jemina Salonen"
       belt: "2. kyu sininen vyö"
       beltcolor: "#355cb0"
+      image: "../../images/coaches/Jemina Salonen.png"
+      description: "Junnujudon valmentaja"
+
+    - name: "Mira Ojala"
+      belt: "5. kyu keltainen vyö"
+      beltcolor: "#355cb0"
       image: "../../images/coaches/Missing Picture.webp"
-      description: "Junnujudon apuvalmentaja"  
+      description: "Junnujudon valmentaja"    
 
 #    - name: "Tomi Laaksonen"
 #      belt: "?. kyu ? vyö"
