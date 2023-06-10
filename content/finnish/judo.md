@@ -77,26 +77,26 @@ coaches:
       description: "Katakurssin valmentaja"
 
     - name: "Jukka Aalto"
-      belt: "1. kyu ruskea vyö"
+      belt: "1. kyū ruskea vyö"
       image: "../../images/coaches/Jukka Aalto.webp"
       beltcolor: "#3f2a14"
       description: "Seniorijudon valmentaja"
 
     - name: "Jani Möller"
-      belt: "2. kyu sininen vyö"
+      belt: "2. kyū sininen vyö"
       beltcolor: "#355cb0"
       image: "../../images/coaches/Missing Picture.webp"
       description: "Peruskurssin ja ylempien vöiden valmentaja"
 
     - name: "Jemina Salonen"
-      belt: "2. kyu sininen vyö"
+      belt: "2. kyū sininen vyö"
       beltcolor: "#355cb0"
       image: "../../images/coaches/Jemina Salonen.png"
       description: "Junnujudon valmentaja"
 
     - name: "Mira Ojala"
-      belt: "5. kyu keltainen vyö"
-      beltcolor: "#355cb0"
+      belt: "5. kyū keltainen vyö"
+      beltcolor: "#B7AE1F"
       image: "../../images/coaches/Missing Picture.webp"
       description: "Junnujudon valmentaja"    
 

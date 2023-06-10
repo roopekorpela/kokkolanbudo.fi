@@ -94,7 +94,7 @@ coaches:
 
     - name: "Mira Ojala"
       belt: "5. kyū yellow belt"
-      beltcolor: "#355cb0"
+      beltcolor: "#B7AE1F"
       image: "../../images/coaches/Missing Picture.webp"
       description: "Junior judo coach"    
         
