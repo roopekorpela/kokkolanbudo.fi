@@ -1,9 +1,9 @@
 ---
-title: "BJJ basic course 2022"
-date: 2022-08-01T08:00:07+03:00
-image: "images/blog/bjj-peruskurssi-2022-syksy.webp"
+title: "BJJ basic course 2023"
+date: 2023-08-01T08:00:07+03:00
+image: "images/blog/bjj-peruskurssi-2023-syksy.webp"
 type: "regular"
-summary: "The new BJJ basic course starts on 30 August 2022!"
+summary: "The new BJJ basic course starts on 24 August 2023!"
 draft: false
 ---
 The basic course also works as a perfect refresher course if you are interested in returning to tatami, but the lessons have been forgotten.
@@ -30,4 +30,4 @@ The age limit for the basic course is 15 years, and the person participating in 
 
 **Additional information and registration:**
 
-- Meira Ylitalo, 0405269685
+- Niko Koivisto, 0408459701
