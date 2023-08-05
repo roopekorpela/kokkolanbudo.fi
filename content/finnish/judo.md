@@ -42,7 +42,7 @@ timetable:
     - name: "Judon peruskurssi ja ylemmät vyöt"
       time1: "Tiistai klo 18:00-19:30"
       time1location: (Martial Arts Center)
-      time2: "Torstai klo 18:00-19:00"
+      time2: "Torstai klo 19:30-21:00"
       time2location: (Martial Arts Center)
 
     - name: "Junnujudo"

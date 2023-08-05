@@ -42,7 +42,7 @@ timetable:
     - name: "Judo basic course and colored belts"
       time1: "Tuesday 18:00-19:30"
       time1location: (Martial Arts Center)
-      time2: "Thursday 18:00-19:00"
+      time2: "Thursday 19:30-21:00"
       time2location: (Martial Arts Center)
 
     - name: "Junior judo"
