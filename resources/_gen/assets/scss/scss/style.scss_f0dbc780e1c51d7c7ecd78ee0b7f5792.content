@@ -235,7 +235,7 @@ a:hover {
 .bg-light {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-image: linear-gradient(180deg, white 0%, #e9ebe0 25%) !important; }
+  background-image: linear-gradient(180deg, white 0%, #e6e6e4 25%) !important; }
 
 .text-primary {
   color: #d65356 !important; }
