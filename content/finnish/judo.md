@@ -49,7 +49,7 @@ timetable:
       time1: "Tiistai klo 16:00-17:00"
       time1location: "(Martial Arts Center)"
       time2: "Perjantai klo 16:00-17:00"
-      time2location: "(Kampushalli)"
+      time2location: "(Martial Arts Center)"
 
     - name: "Muksu- ja perhejudo"
       time1: "Sunnuntai klo 10:00-11:00"

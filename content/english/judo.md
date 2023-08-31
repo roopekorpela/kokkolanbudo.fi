@@ -49,7 +49,7 @@ timetable:
       time1: "Tuesday  16:00-17:00"
       time1location: "(Martial Arts Center)"
       time2: "Friday 16:00-17:00"
-      time2location: "(Kampushalli)"
+      time2location: "(Martial Arts Center)"
     - name: "Kids and family judo"
       time1: "Sunday 10:00-11:00"
       time1location: (Martial Arts Center)
