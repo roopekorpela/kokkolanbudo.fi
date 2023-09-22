@@ -367,168 +367,139 @@ a.post-title {
   a.post-title:hover {
     color: #d65356; }
 
-.content * {
-  word-break: break-word;
-  overflow-wrap: break-word;
-  margin-bottom: 20px; }
-
-.content img {
-  max-width: 100%; }
-
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin-bottom: 15px; }
-
-.content strong {
-  font-weight: 600; }
-
-.content a {
-  color: #777;
-  border-bottom: 1px dotted #ECECEC; }
-  .content a:hover {
-    color: #d65356; }
-
-.content ol,
-.content ul {
-  padding-left: 20px; }
-  .content ol li,
-  .content ul li {
+.content {
+  /* Shared styles for all list items (both ordered and unordered) */
+  /* Custom bullet for unordered lists */ }
+  .content * {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 20px; }
+  .content img {
+    max-width: 100%; }
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    margin-bottom: 15px; }
+  .content strong {
+    font-weight: 600; }
+  .content a {
+    color: #777;
+    border-bottom: 1px dotted #ECECEC; }
+    .content a:hover {
+      color: #d65356; }
+  .content ol li, .content ul li {
     margin-bottom: 10px;
-    list-style-type: none;
-    counter-increment: item; }
-
-.content ul {
-  padding-left: 0;
-  margin-bottom: 20px;
-  list-style-type: none; }
-  .content ul li {
-    padding-left: 20px;
-    position: relative; }
-    .content ul li::before {
-      position: absolute;
-      content: '';
-      height: 8px;
-      width: 8px;
-      border-radius: 50%;
-      background: #d65356;
-      left: 3px;
-      top: 5px; }
-
-.content table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 1rem;
-  border: 1px solid #ECECEC; }
-
-.content table td,
-.content table th {
-  padding: .75rem;
-  vertical-align: top;
-  margin-bottom: 0; }
-
-.content th:not(:last-of-type),
-.content td:not(:last-of-type) {
-  border-right: 1px solid #ECECEC; }
-
-.content th {
-  font-weight: 500; }
-
-.content thead {
-  background: #fff;
-  margin-bottom: 0; }
-  .content thead tr {
-    border-bottom: 1px solid #ECECEC; }
-
-.content tbody {
-  background-color: transparent;
-  margin-bottom: 0; }
-
-.content .notices {
-  margin: 2rem 0;
-  position: relative;
-  overflow: hidden; }
-
-.content .notices p {
-  padding: 10px;
-  margin-bottom: 0; }
-
-.content .notices p::before {
-  position: absolute;
-  top: 2px;
-  color: #fff;
-  font-family: "themify";
-  font-weight: 900;
-  content: "\e717";
-  left: 10px; }
-
-.content .notices.note p {
-  border-top: 30px solid #6ab0de;
-  background: #fff; }
-
-.content .notices.note p::after {
-  content: 'Note';
-  position: absolute;
-  top: 2px;
-  color: #fff;
-  left: 2rem; }
-
-.content .notices.tip p {
-  border-top: 30px solid #78C578;
-  background: #fff; }
-
-.content .notices.tip p::after {
-  content: 'Tip';
-  position: absolute;
-  top: 2px;
-  color: #fff;
-  left: 2rem; }
-
-.content .notices.info p {
-  border-top: 30px solid #F0B37E;
-  background: #fff; }
-
-.content .notices.info p::after {
-  content: 'Info';
-  position: absolute;
-  top: 2px;
-  color: #fff;
-  left: 2rem; }
-
-.content .notices.warning p {
-  border-top: 30px solid #E06F6C;
-  background: #fff; }
-
-.content .notices.warning p::after {
-  content: 'Warning';
-  position: absolute;
-  top: 2px;
-  color: #fff;
-  left: 2rem; }
-
-.content blockquote {
-  font-size: 20px !important;
-  color: #777;
-  padding: 20px 40px;
-  border-left: 2px solid #d65356;
-  margin: 40px 0;
-  font-weight: bold;
-  background: #fff; }
-  .content blockquote p {
-    margin-bottom: 0 !important; }
-
-.content pre {
-  display: block;
-  padding: 9.5px;
-  margin: 10px 0px 10px;
-  white-space: pre-wrap; }
-
-.content code {
-  margin-bottom: 0 !important;
-  font-size: 100%; }
+    position: relative;
+    padding-left: 20px; }
+  .content ul {
+    list-style: none;
+    /* Remove default bullets */ }
+  .content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Centering the dot vertically */
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #d65356; }
+  .content table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ECECEC; }
+  .content table td,
+  .content table th {
+    padding: .75rem;
+    vertical-align: top;
+    margin-bottom: 0; }
+  .content th:not(:last-of-type),
+  .content td:not(:last-of-type) {
+    border-right: 1px solid #ECECEC; }
+  .content th {
+    font-weight: 500; }
+  .content thead {
+    background: #fff;
+    margin-bottom: 0; }
+    .content thead tr {
+      border-bottom: 1px solid #ECECEC; }
+  .content tbody {
+    background-color: transparent;
+    margin-bottom: 0; }
+  .content .notices {
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden; }
+  .content .notices p {
+    padding: 10px;
+    margin-bottom: 0; }
+  .content .notices p::before {
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    font-family: "themify";
+    font-weight: 900;
+    content: "\e717";
+    left: 10px; }
+  .content .notices.note p {
+    border-top: 30px solid #6ab0de;
+    background: #fff; }
+  .content .notices.note p::after {
+    content: 'Note';
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    left: 2rem; }
+  .content .notices.tip p {
+    border-top: 30px solid #78C578;
+    background: #fff; }
+  .content .notices.tip p::after {
+    content: 'Tip';
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    left: 2rem; }
+  .content .notices.info p {
+    border-top: 30px solid #F0B37E;
+    background: #fff; }
+  .content .notices.info p::after {
+    content: 'Info';
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    left: 2rem; }
+  .content .notices.warning p {
+    border-top: 30px solid #E06F6C;
+    background: #fff; }
+  .content .notices.warning p::after {
+    content: 'Warning';
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    left: 2rem; }
+  .content blockquote {
+    font-size: 20px !important;
+    color: #777;
+    padding: 20px 40px;
+    border-left: 2px solid #d65356;
+    margin: 40px 0;
+    font-weight: bold;
+    background: #fff; }
+    .content blockquote p {
+      margin-bottom: 0 !important; }
+  .content pre {
+    display: block;
+    padding: 9.5px;
+    margin: 10px 0px 10px;
+    white-space: pre-wrap; }
+  .content code {
+    margin-bottom: 0 !important;
+    font-size: 100%; }
 
 .pagination {
   margin-top: 30px;

@@ -112,4 +112,4 @@ Yhdistys liittyy ko. lajin erikoisliiton jäseneksi ja sen eroamispäätös on p
 
 ### 18.§
 
-Hallitusjäsenen suositellaan toimia seuran hallituksessa enimmillään kolme vuotta kerralla, jonka jälkeen on erovuorossa.
+- Hallitusjäsenen suositellaan toimia seuran hallituksessa enimmillään kolme vuotta kerralla, jonka jälkeen on erovuorossa.

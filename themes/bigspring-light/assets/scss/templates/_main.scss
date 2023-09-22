@@ -132,38 +132,30 @@ a.post-title {
     }
   }
 
-  ol,
-  ul {
-    padding-left: 20px;
+/* Shared styles for all list items (both ordered and unordered) */
+ol li, ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
 
-    li {
-      margin-bottom: 10px;
-      list-style-type: none;
-      counter-increment: item;
-    }
-  }  
-    
-  ul {
-    padding-left: 0;
-    margin-bottom: 20px;
-    list-style-type: none;
+/* Custom bullet for unordered lists */
+ul {
+  list-style: none; /* Remove default bullets */
+}
 
-    li {
-      padding-left: 20px;
-      position: relative;
+ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Centering the dot vertically */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: $primary-color;
+}
 
-      &::before {
-        position: absolute;
-        content: '';
-        height: 8px;
-        width: 8px;
-        border-radius: 50%;
-        background: $primary-color;
-        left: 3px;
-        top: 5px;
-      }
-    }
-  }
 
   table {
     width: 100%;
