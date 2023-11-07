@@ -69,7 +69,7 @@ coaches:
       description: "Basic course and colored belts coach"
 
     - name: "Timo Sivula"
-      belt: "1. dan black belt"
+      belt: "2. dan black belt"
       beltcolor: "#222"
       image: "../../images/coaches/Timo Sivula.webp"
       description: "Kata course coach"

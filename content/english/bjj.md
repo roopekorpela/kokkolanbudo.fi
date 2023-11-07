@@ -43,36 +43,43 @@ coaches:
   enable: true
   title: "BJJ coaches"
   coach_item:
-    - name : "Tomas Ahlstrand"
-      belt : "brown belt"
-      beltcolor : "#3f2a14"
-      image : "../../images/coaches/Tomas Ahlstrand.webp"
-      description : "BJJ coach"
-    - name : "Miika Välimäki"
-      belt : "purple belt"
-      beltcolor : "#5E3E8D"
-      image : "../../images/coaches/Miika Välimäki.webp"
-      description : "BJJ coach"
+# Black belts
     - name : "Niko Koivisto"
-      belt : "purple belt"
-      beltcolor : "#5E3E8D"
+      belt : "black belt"
+      beltcolor : "#222"
       image : "../../images/coaches/Niko Koivisto.webp"
       description : "BJJ coach"
+    - name : "Tomas Ahlstrand"
+      belt : "black belt"
+      beltcolor : "#222"
+      image : "../../images/coaches/Tomas Ahlstrand.webp"
+      description : "BJJ coach"
+      
+# Brown belts
+    - name : "Miika Välimäki"
+      belt : "brown belt"
+      beltcolor : "#3f2a14"
+      image : "../../images/coaches/Miika Välimäki.webp"
+      description : "BJJ coach"
     - name : "Endre Prágai"
-      belt : "purple belt"
-      beltcolor : "#5E3E8D"
+      belt : "brown belt"
+      beltcolor : "#3f2a14"
       image : "../../images/coaches/Endre Prágai.webp"
       description : "BJJ coach"
+
+# Purple belts
     - name : "Markus Nordbäck"
-      belt : "blue belt"
-      beltcolor : "#355cb0"
+      belt : "purple belt"
+      beltcolor : "#5E3E8D"
       image : "../../images/coaches/Markus Nordbäck.webp"
       description : "BJJ Coach"
     - name : "Niko Hartikainen"
-      belt : "blue belt"
-      beltcolor : "#355cb0"
+      belt : "purple belt"
+      beltcolor : "#5E3E8D"
       image : "../../images/coaches/Missing Picture.webp"
       description : "BJJ coach"
+
+# Blue belts
 
 moreinfo:
   enable: true

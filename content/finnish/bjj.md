@@ -43,36 +43,43 @@ coaches:
   enable: true
   title: "BJJ valmentajat"
   coach_item:
-    - name : "Tomas Ahlstrand"
-      belt : "ruskea vyö"
-      beltcolor : "#3f2a14"
-      image : "../../images/coaches/Tomas Ahlstrand.webp"
-      description : "Valmentaja"
-    - name : "Miika Välimäki"
-      belt : "purppura vyö"
-      beltcolor : "#5E3E8D"
-      image : "../../images/coaches/Miika Välimäki.webp"
-      description : "Valmentaja"
+# Black belts
     - name : "Niko Koivisto"
-      belt : "purppura vyö"
-      beltcolor : "#5E3E8D"
+      belt : "musta vyö"
+      beltcolor : "#222"
       image : "../../images/coaches/Niko Koivisto.webp"
       description : "Valmentaja"
+    - name : "Tomas Ahlstrand"
+      belt : "musta vyö"
+      beltcolor : "#222"
+      image : "../../images/coaches/Tomas Ahlstrand.webp"
+      description : "Valmentaja"
+
+# Brown belts
+    - name : "Miika Välimäki"
+      belt : "ruskea vyö"
+      beltcolor : "#3f2a14"
+      image : "../../images/coaches/Miika Välimäki.webp"
+      description : "Valmentaja"
     - name : "Endre Prágai"
-      belt : "purppura vyö"
-      beltcolor : "#5E3E8D"
+      belt : "ruskea vyö"
+      beltcolor : "#3f2a14"
       image : "../../images/coaches/Endre Prágai.webp"
       description : "Valmentaja"
+
+# Purple belts
     - name : "Markus Nordbäck"
-      belt : "sininen vyö"
-      beltcolor : "#355cb0"
+      belt : "purppura vyö"
+      beltcolor : "#5E3E8D"
       image : "../../images/coaches/Markus Nordbäck.webp"
       description : "Valmentaja"
     - name : "Niko Hartikainen"
-      belt : "sininen vyö"
-      beltcolor : "#355cb0"
+      belt : "purppura vyö"
+      beltcolor : "#5E3E8D"
       image : "../../images/coaches/Missing Picture.webp"
       description : "Valmentaja"
+
+# Blue belts
 
 moreinfo:
   enable: true

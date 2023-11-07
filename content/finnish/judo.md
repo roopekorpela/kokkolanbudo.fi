@@ -71,7 +71,7 @@ coaches:
       description: "Peruskurssin ja ylempien vöiden valmentaja"
 
     - name: "Timo Sivula"
-      belt: "1. dan musta vyö"
+      belt: "2. dan musta vyö"
       beltcolor: "#222"
       image: "../../images/coaches/Timo Sivula.webp"
       description: "Katakurssin valmentaja"
