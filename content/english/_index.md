@@ -7,10 +7,9 @@ welcome:
      # service item loop
     - title : "Welcome!"
       images:
-      - "../../images/karatekata.webp"
       - "../../images/bjjclass.webp"
       - "../../images/judogroup.webp"
-      content : "Kokkola Budo is a martial arts club located in Kokkola that was founded in 1993. We offer the opportunity to practice three types of martial arts/self-defense, which are bjj, judo and karate."
+      content : "Kokkola Budo is a martial arts club located in Kokkola that was founded in 1993. We offer the opportunity to practice two types of martial arts: BJJ and judo."
 
 
 ####################### Lajit #########################

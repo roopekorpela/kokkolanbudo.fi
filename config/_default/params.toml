@@ -29,7 +29,7 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 [startDates]
-bjjCourseStartDate = "24.08.2023"
+bjjCourseStartDate = ""
 bjjCourseImage = "../../images/bjjclass.webp"
 bjjCourseRegisterLink = ""
 bjjCourseDescription = "Uusi BJJ peruskurssi alkaa syksyllä."
@@ -40,9 +40,3 @@ judoCourseImage = "../../images/judothrow2.webp"
 judoCourseRegisterLink = ""
 judoCourseDescription = "Uusi Judo peruskurssi alkaa syksyllä."
 judoCourseDescriptionEnglish = "A new Judo basic course begins in the fall"
-
-karateCourseStartDate = "2024"
-karateCourseImage = "../../images/karateroopetomi.webp"
-karateCourseRegisterLink = ""
-karateCourseDescription = "Uusi karaten peruskurssi aloitettiin syksyllä 2023. Valitettavasti uusia osallistuja ei mahdu mukaan tällä hetkellä." #Uusi karaten peruskurssi alkaa syksyllä 16.08.2023 klo 17:00. Ikäraja 10v. Junioreiden vanhemmat ovat myös tervetulleita osallistumaan peruskursille. Paikkoja rajoitetusti, varaa paikkasi alla olevasta linkistä. 👊🏼
-karateCourseDescriptionEnglish = "Unfortunately, new participants cannot join at the moment due to limited space." #A new karate basic course begins in the fall on August 16th, 2023 at 5:00 PM. Age limit 10 years old. Parents of juniors are also welcome to participate in the basic course. Limited spots available, reserve your spot through the link below. 👊🏼

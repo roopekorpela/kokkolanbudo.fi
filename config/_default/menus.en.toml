@@ -33,29 +33,6 @@ url = "bjj"
 name = "Judo"
 url = "judo"
 
-[[footer_left]]
-name = "Karate"
-url = "karate"
-
-# footer menu middle
-[[footer_middle]]
-name = "BJJ"
-link = "www.instagram.com"
-title = "Karate instagram"
-icon = "fab fa-instagram"
-
-[[footer_middle]]
-name = "Judo"
-link = "www.instagram.com"
-title = "Karate instagram"
-icon = "fab fa-instagram"
-
-[[footer_middle]]
-name = "Karate"
-link = "www.instagram.com"
-title = "Karate instagram"
-icon = "fab fa-instagram"
-
 # footer menu right
 [[footer_right]]
 name = "🥋Dojo rules"
@@ -66,16 +43,6 @@ weight = 1
 name = "📜Club rules"
 url = "clubrules"
 weight = 2
-
-[[footer_right]]
-name = "🔗Suomisport"
-url = "https://www.suomisport.fi/?locale=en_GB"
-weight = 3
-
-[[footer_farright]]
-name = "👊🏼Get Started"
-url = "getstarted"
-weight = 1
 
 [[footer_farright]]
 name = "📌Contact Us"

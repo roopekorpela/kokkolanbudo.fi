@@ -66,37 +66,6 @@
     </div>
   </div>
 </section>
-
-<section class="section">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ i18n `karatebasiccourse` }}</h2>
-        {{ if .Site.Params.startDates.karateCourseRegisterLink }}
-          {{ if eq .Language.LanguageName "English" }}
-            <p>{{ site.Params.startDates.karateCourseDescriptionEnglish  }}</p>
-          {{ else }}
-            <p>{{ site.Params.startDates.karateCourseDescription  }}</p>
-          {{ end }}
-          <a href={{site.Params.startDates.karateCourseRegisterLink}}  title="{{ i18n `registerkaraterbasiccourse` }}" class="btn-link">{{ i18n `registerkaratebasiccourse` }} <i class="fas fa-arrow-right"></i></a>
-        {{ else }}
-          {{ if eq .Language.LanguageName "English" }}
-            <p>The start date of the next karate basic course has not been announced yet.</p>
-            <p>You can contact us through the link below and inquire about starting Karate hobby. 🙂</p>
-          {{ else }}
-            <p>Seuraavan karaten peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
-            <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella karate harrastuksen aloittamisesta. 🙂</p>
-          {{end}}
-      
-          <a href="{{ relURL "getstarted" }}#contactform" title="{{ i18n `asktojoin` }}" class="btn-link" onclick="document.getElementById('karate').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
-        {{ end }}
-      </div>
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img src={{site.Params.startDates.karateCourseImage}} alt="" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</section>
  <!-- service -->
 
 

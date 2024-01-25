@@ -14,7 +14,7 @@ contactform:
 
 ### Kokkolan Budo ry
 
-Kokkola Budo is a joint sports club of three martial arts. Kokkolan Budo was founded in 1993.
+Kokkolan Budo, founded in 1993, is a club representing various martial arts. Over the years, Kokkolan Budo has offered a range of disciplines including Judo, Karate, Kickboxing, and BJJ. Karate was a part of the club from the very beginning before transitioning into its own independent [club](https://www.kokkolankarate.fi) at the beginning of 2024. Currently, the club offers two disciplines: BJJ and Judo.
 
 **Address:** Asentajantie 13, 67600 Kokkola  
 **Account number:** FI65 2011 1800 1669 52  
@@ -22,11 +22,11 @@ Kokkola Budo is a joint sports club of three martial arts. Kokkolan Budo was fou
 
 ### Board
 
-**Chairman:** Antti Pitkänen (Judo) &#9742; 050 3054 361
+**Chairman:** Niko Koivisto (BJJ)
 
-**Secretary:** Joakim Honga (BJJ)  
+**Secretary:** Niko Hartikainen (BJJ)  
 **Treasurer:** Meira Ylitalo (BJJ)
 
 **Board member:** Tomi Niemi (Karate)  
-**Board membern:** Roope Korpela (Karate)  
+**Board membern:** Niko Töyräskoski (BJJ)  
 **Board member:** Toni Salmela (BJJ)

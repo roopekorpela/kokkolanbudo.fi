@@ -7,8 +7,6 @@ defaultContentLanguage = 'fi'
 defaultContentLanguageInSubdir = false
 paginate = "3"          # post pagination 
 summaryLength = "15"    # post excerpt
-disqusShortname = ""    # you can get your shortname form here : https://disqus.com
-googleAnalytics = ""    # example : UA-123-45
 
 [markup.goldmark.renderer]
 unsafe = true

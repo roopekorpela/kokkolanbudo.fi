@@ -11,8 +11,6 @@ lajit:
   enable: true
   bjj_image: "../../images/bjjtemp.webp"
   judo_image: "../../images/judotemp.webp"
-  karate_image: "../../images/karate2.webp"
-
 
 contactform:
   enable: true
@@ -29,8 +27,4 @@ The training cost is 100 euros per season. We have two seasons: fall and spring.
 - Spring season starts in January and ends in May.
 - During the summer break, training sessions are usually arranged, more information will be provided later.
 
-{{</ faq >}}
-
-{{< faq "When do the next basic courses start?" >}}
-{{% startdate %}}
 {{</ faq >}}

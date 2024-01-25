@@ -13,7 +13,7 @@ contactform:
 
 ### Kokkolan Budo ry
 
-Kokkolan Budo on vuonna 1993 perustettu kolmen kamppailulajin yhteinen urheiluseura.  
+Kokkolan Budo on vuonna 1993 perustettu budolajeja edustava seura. Kokkolan Budossa on ollut vuosien varrella mahdollista harrastaa seuraavia lajeja: Judo, Karate, Kickboxing ja BJJ. Karate oli mukana alusta asti ennen siirtymistä omaksi [seuraksi](https://www.kokkolankarate.fi) vuoden 2024 alussa. Nykyään seurassa lajeja on kaksi, BJJ ja Judo.  
 
 **Salin osoite:** Asentajantie 13, 67600 Kokkola  
 **Tilinumero:** FI65 2011 1800 1669 52  
@@ -21,11 +21,11 @@ Kokkolan Budo on vuonna 1993 perustettu kolmen kamppailulajin yhteinen urheiluse
 
 ### Hallitus
 
-**Puheenjohtaja:** Antti Pitkänen (Judo) &#9742; 050 3054 361  
+**Puheenjohtaja:** Niko Koivisto (BJJ)
 
-**Sihteeri:** Joakim Honga (BJJ)  
+**Sihteeri:** Niko Hartikainen (BJJ)  
 **Rahastonhoitaja:** Meira Ylitalo (BJJ)
 
 **Hallituksen jäsen:** Tomi Niemi (Karate)  
-**Hallituksen jäsen:** Roope Korpela (Karate)  
+**Hallituksen jäsen:** Niko Töyräskoski (BJJ)  
 **Hallituksen jäsen:** Toni Salmela (BJJ)

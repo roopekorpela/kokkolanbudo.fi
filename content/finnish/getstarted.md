@@ -10,8 +10,6 @@ lajit:
   enable: true
   bjj_image: "../../images/bjjtemp.webp"
   judo_image: "../../images/judotemp.webp"
-  karate_image: "../../images/karate2.webp"
-
 
 contactform:
   enable: true
@@ -27,8 +25,4 @@ Kausimaksu on 100 euroa lajista riippumatta. Meillä on kaksi kautta: syksy ja k
 - Syyskausi alkaa elokuussa ja päättyy joulukuussa.
 - Kevätkausi alkaa tammikuussa ja päättyy toukokuussa.
 - Kesätauon aikana järjestetään yleensä harjoituksia, tarkempaa tietoa kesän treeneistä kertoo kunkin lajin valmentajat.
-{{</ faq >}}
-
-{{< faq "Milloin seuraavat peruskurssit alkavat?" >}}
-{{% startdate %}}
 {{</ faq >}}
