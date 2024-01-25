@@ -11,32 +11,12 @@ contact_judo_action = "https://forms.un-static.com/forms/710c018bafabc4b3d30ede2
 contact_karate_action = "https://forms.un-static.com/forms/e6c73cd79cb7a0c95435e67f5777d2c39bd5ea1f" # contact form works with https://forms.un-static.com
 
 blogCategoryType = "category"   # Type of pages to be rendered with a blog view
-light = "#f4f5ef"               # Background color slight green
-
-[preloader]
-enable = false
-preloader = ""                  # use jpg, png, svg or gif format.
 
 [navigation_button]
 enable = true
 label = "Liity joukkoon!"
 link = "getstarted"
 
-[cookies]
-enable = false
-expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
-
 [startDates]
-bjjCourseStartDate = ""
 bjjCourseImage = "../../images/bjjclass.webp"
-bjjCourseRegisterLink = ""
-bjjCourseDescription = "Uusi BJJ peruskurssi alkaa syksyllä."
-bjjCourseDescriptionEnglish = "A new BJJ basic course begins in the fall"
-
-judoCourseStartDate = ""
 judoCourseImage = "../../images/judothrow2.webp"
-judoCourseRegisterLink = ""
-judoCourseDescription = "Uusi Judo peruskurssi alkaa syksyllä."
-judoCourseDescriptionEnglish = "A new Judo basic course begins in the fall"

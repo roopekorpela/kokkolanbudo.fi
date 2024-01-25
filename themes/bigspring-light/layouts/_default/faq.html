@@ -8,24 +8,12 @@
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <h2 class="section-title">{{ i18n `bjjbasiccourse` }}</h2>
-        {{ if .Site.Params.startDates.bjjCourseRegisterLink }}
           {{ if eq .Language.LanguageName "English" }}
-            <p>{{ site.Params.startDates.bjjCourseDescriptionEnglish  }}</p>
-          {{ else }}
-            <p>{{ site.Params.startDates.bjjCourseDescription  }}</p>
-          {{ end }}
-          <a href={{site.Params.startDates.bjjCourseRegisterLink}}   title="{{ i18n `registerbjjbasiccourse` }}" class="btn-link">{{ i18n `registerbjjbasiccourse` }} <i class="fas fa-arrow-right"></i></a>
-        {{ else }}
-          {{ if eq .Language.LanguageName "English" }}
-            <p>The start date of the next BJJ basic course has not been announced yet.</p>
             <p>You can contact us through the link below and inquire about starting BJJ hobby. 🤗</p>
           {{ else }}
-          <p>Seuraavan BJJ peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
           <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella BJJ harrastuksen aloittamisesta. 🤗</p>
           {{end}}
-      
           <a href="{{ relURL "getstarted" }}#contactform" title="{{ i18n `asktojoin` }}" class="btn-link" class="btn-link" onclick="document.getElementById('bjj').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
-        {{ end }}
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         <img src={{site.Params.startDates.bjjCourseImage}} alt="" class="img-fluid">
@@ -44,31 +32,17 @@
       </div>
       <div class="col-md-6">
         <h2 class="section-title">{{ i18n `judobasiccourse` }}</h2>
-        {{ if .Site.Params.startDates.judoCourseRegisterLink }}
           {{ if eq .Language.LanguageName "English" }}
-            <p>{{ site.Params.startDates.judoCourseDescriptionEnglish  }}</p>
-          {{ else }}
-            <p>{{ site.Params.startDates.judoCourseDescription  }}</p>
-          {{ end }}
-          <a href={{site.Params.startDates.judoCourseRegisterLink}} title="{{ i18n `registerjudobasiccourse` }}">{{ i18n `registerjudobasiccourse` }} <i class="fas fa-arrow-right"></i></a>
-        {{ else }}
-          {{ if eq .Language.LanguageName "English" }}
-            <p>The start date of the next judo basic course has not been announced yet.</p>
             <p>You can contact us through the link below and inquire about starting Judo hobby. ☺️</p>
           {{ else }}
-          <p>Seuraavan judon peruskurssin aloituspäivää ei ole vielä ilmoitettu.</p>
           <p>Voit olla yhteydessä meihin alla olevasta linkistä ja tiedustella Judo harrastuksen aloittamisesta. ☺️</p>
-          {{end}}
-      
+          {{end}}    
           <a href="{{ relURL "getstarted" }}#contactform" title="{{ i18n `asktojoin` }}"  class="btn-link" onclick="document.getElementById('judo').checked = true;">{{ i18n `asktojoin` }} <i class="fas fa-arrow-right"></i></a>
-        {{ end }}
       </div>
     </div>
   </div>
 </section>
  <!-- service -->
-
-
 
 <!-- faq -->
 <section class="bg-light">
@@ -84,7 +58,6 @@
   </div>
 </section>
 <!-- faq -->
-
 
 {{ with .Params.contactform }}
 {{ if .enable }}
