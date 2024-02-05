@@ -14,4 +14,4 @@ This website is built using the following technologies:
 - **Theme:** [Bigspring-Light](https://github.com/gethugothemes/bigspring-light-hugo). ❗Note: The theme has been heavily modified to suit the specific design and functionality requirements of the Kokkolan Budo website.
 
 ## Project Credits
-- **Original developer and operator (2022-2024):** Roope Korpela
+- **Original developer and operator (2022-2024):** [Roope Korpela](https://github.com/roopekorpela)
