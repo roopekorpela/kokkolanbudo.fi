@@ -1,4 +1,4 @@
-# Kokkolan Budo Website (Martial Art Club)
+# Kokkolan Budo Website (kokkolanbudo.fi)
 
 Welcome to the Kokkolan Budo website repository! Kokkola Budo is a martial arts club located in Kokkola, Finland.
 
